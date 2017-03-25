@@ -188,7 +188,7 @@ max-width: 300px;
 font-family: 'Montserrat';
 font-size: 14px;
 color: #283a39;
-line-height: 22px;
+line-height: 28px;
 }
 
 .project {
@@ -199,7 +199,7 @@ font-family: 'Montserrat';
 font-size: 14px;
 font-weight: 300;
 color: #000;
-line-height: 22px;
+line-height: 28px;
 }
 
 @media screen and (min-width: 992px){
