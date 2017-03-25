@@ -488,9 +488,10 @@ h3, h4 {
 
 @media screen and (max-width: 992px) {
     .videoPoster span {
-    left: 47.3%;
+    left: 48.3%;
     }
 }
+
 .videoPoster:before {
     content: "";
     position: absolute;
