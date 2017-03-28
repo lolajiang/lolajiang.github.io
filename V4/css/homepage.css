@@ -277,6 +277,7 @@ line-height: 28px;
         left: 25px;
         position: fixed;
         z-index: 10;
+        display: none;
     }
 
     .logo>p, .ipd>p {
