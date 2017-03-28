@@ -4,6 +4,16 @@ alternate-backgrounds {
 url("https://images.unsplash.com/photo-1435685813800-51ba4ceb9c4a?dpr=1&auto=format&crop=entropy&fit=crop&w=1500&h=848&q=80");
 }
 
+/*Solve the problem of "How to prevent horizontal scrolling on responsive webpage?"*/
+body {
+    overflow-x: hidden !important;
+}
+.container {
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+}
+/*Solution Ends*/
+
 html {
   font-size: 100%;
 }
