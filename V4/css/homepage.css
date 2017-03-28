@@ -188,6 +188,30 @@ span:nth-child(2) {
 margin: 4px 0;
 }
 
+/*image*/
+@media screen and (min-width: 768px){
+    #image-landing{
+        padding-left: 8%;
+        padding-right: 8%;
+    }
+
+    #image-specification{
+        padding-left: 12%;
+        padding-right: 12%;
+    }
+
+    #image-showcase{
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+}
+@mediascreen and (max-width: 768px){
+    #image-landing, #image-specification, #image-showcase{
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
 /* Landing page: about me */
 .about {
 max-height: 170px;
