@@ -207,7 +207,7 @@ line-height: 28px;
     }
 
     .landing-text {
-        transform: translate(10vh, 22vh);
+        transform: translate(15vh, 22vh);
     }
 
     #title {
@@ -215,7 +215,7 @@ line-height: 28px;
     }
 
     .landing-image {
-        transform: translate(4vh, 0vh)
+        transform: translate(8vh, 0vh)
     }
 
     #scenario>.project{
@@ -235,7 +235,7 @@ line-height: 28px;
     }
 }
 
-@media screen and (max-width: 992px){
+@media screen and (min-width: 992px)and (max-width: 992px){
     .about {
     transform: translate(0vh, 0vh);
     }
@@ -368,10 +368,6 @@ img {
     text-align: center;
     padding-top:50px;
 }
-#team .row {
-    width: 130%;
-    margin-left: -15%;
-};
 
 .headshot {
     padding: 10%;
