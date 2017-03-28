@@ -352,8 +352,6 @@ margin: 0 auto;
 
     .img-responsive-product{
         width: 90%;
-        padding-top: 6%;
-        padding-bottom: 6%;
         visibility: visible;
     }
 }
@@ -381,8 +379,6 @@ margin: 0 auto;
 
     .img-responsive-specification{
         width: 100%;
-        padding-top: 6%;
-        padding-bottom: 6%;
         visibility: visible;
     }
 }
@@ -406,10 +402,6 @@ img {
 #team{
     text-align: center;
     padding-top:50px;
-}
-
-.headshot {
-    padding: 10%;
 }
 
 .two-coloumns{
