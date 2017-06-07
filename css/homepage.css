@@ -180,7 +180,7 @@ border-left: 1px solid #000;
 max-height: 170px;
 max-width: 500px;
 /*   max-width: 250px; */
-transform: translate(0, 25vh);
+transform: translate(0, 20vh);
 font-family: 'Quattrocento';
 font-size: 14px;
 color: #000;
@@ -192,7 +192,7 @@ border-left: 1px solid white;
 max-height: 170px;
 max-width: 500px;
 /*   max-width: 250px; */
-transform: translate(0, 25vh);
+transform: translate(0, 20vh);
 font-family: 'Quattrocento';
 font-size: 14px;
 color: #f2f2f2;
