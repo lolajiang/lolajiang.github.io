@@ -16,33 +16,41 @@ section:nth-child(2) {
 background: url("https://images.unsplash.com/photo-1432763597291-6255a042eb30?dpr=2&auto=format&fit=crop&w=767&h=511&q=80&cs=tinysrgb&crop=") no-repeat center fixed;
 background-size: cover;
 }
-section:nth-child(4) {
-position: relative;
-/* --depression */
-background: black url("https://images.unsplash.com/photo-1480471305927-c526773089f8?dpr=2&auto=format&fit=crop&w=767&h=511&q=80&cs=tinysrgb&crop=") no-repeat center fixed;;
-}
-section:nth-child(5) {
+
+section:nth-child(3) {
 position: relative;
 /* --ai */
 background: black url("https://images.unsplash.com/photo-1477244075012-5cc28286e465?dpr=2&auto=format&fit=crop&w=767&h=1151&q=80&cs=tinysrgb&crop=") no-repeat center fixed;
 background-size: cover;
 }
 
-section:nth-child(6) {
-position: relative;
-/* --mobile */
-background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), black url("https://images.unsplash.com/photo-1485409350190-f923525f26eb?dpr=2&auto=format&fit=crop&w=767&h=511&q=80&cs=tinysrgb&crop=") no-repeat center fixed;
-background-size: cover;
-}
-
-section:nth-child(3) {
+section:nth-child(4) {
 position: relative;
 /* --grape */
 background: black url("https://images.unsplash.com/photo-1473229903343-d7903343f6c0?dpr=2&auto=format&fit=crop&w=767&h=511&q=80&cs=tinysrgb&crop=") no-repeat center fixed;
 background-size: cover;
 }
 
+section:nth-child(5) {
+position: relative;
+/* --depression */
+background: black url("https://images.unsplash.com/photo-1480471305927-c526773089f8?dpr=2&auto=format&fit=crop&w=767&h=511&q=80&cs=tinysrgb&crop=") no-repeat center fixed;;
+}
+section:nth-child(6) {
+position: relative;
+/* --siri */
+background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), black url("https://cdn-images-1.medium.com/max/2000/1*I87iZvbVJOjSp8cFzQpiag.png") no-repeat center fixed;
+background-size: cover;
+}
+
 section:nth-child(7) {
+position: relative;
+/* --mobile */
+background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), black url("https://images.unsplash.com/photo-1485409350190-f923525f26eb?dpr=2&auto=format&fit=crop&w=767&h=511&q=80&cs=tinysrgb&crop=") no-repeat center fixed;
+background-size: cover;
+}
+
+section:nth-child(8) {
 position: relative;
 /* --SunBan */
 background: linear-gradient( rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2) ), black url("https://images.unsplash.com/photo-1472586662442-3eec04b9dbda?dpr=2&auto=format&fit=crop&w=1500&h=996&q=80&cs=tinysrgb&crop=") no-repeat center fixed;
