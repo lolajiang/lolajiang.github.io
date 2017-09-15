@@ -26,12 +26,6 @@ background-size: cover;
 
 section:nth-child(4) {
 position: relative;
-/* --depression */
-background: black url("https://images.unsplash.com/photo-1480471305927-c526773089f8?dpr=2&auto=format&fit=crop&w=767&h=511&q=80&cs=tinysrgb&crop=") no-repeat center fixed;;
-}
-
-section:nth-child(5) {
-position: relative;
 /* --ai */
 background: black url("https://images.unsplash.com/photo-1477244075012-5cc28286e465?dpr=2&auto=format&fit=crop&w=767&h=1151&q=80&cs=tinysrgb&crop=") no-repeat center fixed;
 background-size: cover;
