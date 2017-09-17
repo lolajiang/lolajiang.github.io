@@ -307,9 +307,8 @@ img.testimonial-avatar {
 	 -moz-border-radius: 50%;
 	 -ms-border-radius: 50%;
 	 max-width: 100%;
-	 width: 120px;
+	 width: 150px;
 	 border-radius: 50%;
-	 display: block;
 }
 
 img.flip {
