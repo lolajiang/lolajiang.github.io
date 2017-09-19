@@ -149,7 +149,7 @@ h2 {
 h3 {
 	 font-size: 28px;
 	 line-height: 50px;
-	 margin: 0px 0px 0.5em 0px;
+	 margin: 0px;
 	 font-family: "Quattrocento Sans";
 	 font-weight: 400;
 	 font-style: normal;
@@ -240,8 +240,8 @@ p.HMW {
 }
 
 .icon {
-    height: 50px;
-    width: 50px;
+    max-height: 40px;
+    max-width: 40px;
     margin-bottom: 2rem;
     margin-top: 4rem;
 }
@@ -295,6 +295,14 @@ img.square {
 	 width: 192px;
 }
 
+img.browser-screenshot {
+    box-shadow: 0 5px 20px 1px rgba(0,0,0,0.1), 0 0 0 1px rgba(0,0,0,0.12), inset 0 1px 0 rgba(255,255,255,0.8);
+    border-radius: 10px;
+    z-index: 2;
+    position: relative;
+    margin: 4em 0 2em;
+}
+
 div.testimonial {
 	 margin: 0 auto 1em auto;
 	 width: auto;
@@ -309,8 +317,12 @@ img.testimonial-avatar {
 	 max-width: 100%;
 	 width: 150px;
 	 border-radius: 50%;
+     margin: 4em 0 1em;
 }
-
+img.avatar-bottom {
+    margin: 0 0 3em;
+    width:80px;
+}
 img.flip {
         -moz-transform: scaleX(-1);
         -o-transform: scaleX(-1);
@@ -319,6 +331,86 @@ img.flip {
         filter: FlipH;
         -ms-filter: "FlipH";
 }
+
+/*Annotation*/
+
+.browser-annotations li {
+    /*background: rgba(46,160,238,0.95);*/
+    background: rgba(255,127,126,0.95);
+    color: #fff;
+    padding: 15px;
+    line-height: 1.4;
+    border-radius: 6px;
+    display: inline-block;
+    box-shadow: 0 5px 10px 2px rgba(0,0,0,0.1);
+    position: absolute;
+    width: 280px;
+    z-index: 10;
+    counter-increment: step-counter;
+    font-size: 14px;
+    line-height: 1.6em;
+    font-style: italic;
+}
+
+.browser-annotations li:before {
+    background: rgba(255,127,126,0.90);
+}
+
+.browser-annotations .blue{
+    background: rgba(46,160,238,0.95);
+}
+
+.browser-annotations .blue:before{
+    background: rgba(46,160,238,0.95);
+}
+
+.browser-annotations .orange{
+    background: rgba(242,152,81,0.95);
+}
+
+.browser-annotations .orange:before{
+    background: rgba(242,152,81,0.95);
+}
+
+.annotation-title {
+    font-style: normal;
+    margin-bottom: 0.5em;
+}
+
+.browser-annotations li:before {
+    content: counter(step-counter);
+    display: block;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    font-weight: 700;
+    font-size: 1.3em;
+    background: rgba(255,127,126,0.95);
+    box-shadow: 0 5px 15px 2px rgba(0,0,0,0.15);
+    border-radius: 50%;
+    text-align: center;
+    position: absolute;
+    text-indent: 0px;
+}
+
+.none:before {
+    visibility: hidden;
+}
+
+.browser-annotations li.annotation-left:before {
+     top: 50%;
+    left: -75px;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.browser-annotations li.annotation-top:before {
+    left: 50%;
+    top: -75px;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+/*Annotation End*/
 
 h4.testimonial-name {
 	 font-size: 1.1em;
@@ -545,6 +637,10 @@ li {
    background: url("https://images.unsplash.com/photo-1477244075012-5cc28286e465?dpr=2&auto=format&fit=crop&w=767&h=1151&q=80&cs=tinysrgb&crop=") no-repeat center;
 }
 
+#readnext-ng{
+   background: url("https://images.unsplash.com/photo-1473229903343-d7903343f6c0?dpr=2&auto=format&fit=crop&w=767&h=511&q=80&cs=tinysrgb&crop=") no-repeat center fixed;
+}
+
 #readnext-sunban{
    background: linear-gradient( rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2) ), url("https://images.unsplash.com/photo-1472586662442-3eec04b9dbda?dpr=2&auto=format&fit=crop&w=1500&h=996&q=80&cs=tinysrgb&crop=") no-repeat center;
 }
@@ -578,6 +674,10 @@ li {
       -moz-column-width: 50%;
       column-width: 50%;
   }
+
+  .browser-annotations {
+      visibility: visible;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
@@ -592,6 +692,10 @@ li {
       -moz-column-width: 50%;
       column-width: 50%;
   }
+
+  .browser-annotations {
+      visibility: hidden;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -605,6 +709,10 @@ li {
       -webkit-column-width: 100%;
       -moz-column-width: 100%;
       column-width: 100%;
+  }
+
+  .browser-annotations {
+      visibility: hidden;
   }
 }
 img {
@@ -641,6 +749,10 @@ article.container{
 	 width: auto;
    margin-right: -15px;
    margin-left: -15px;
+}
+
+.row-annotation {
+    padding: 0 45px;
 }
 
 
@@ -705,6 +817,15 @@ a {
 	 font-weight: 400;
 	 font-style: normal;
    color: #000000;
+   text-decoration: none;
+}
+
+.link, .link:hover, .link:focus {
+	 font-weight: 400;
+	 font-style: normal;
+   color: #000000;
+   border-bottom: 1px solid #000;
+   text-decoration: none;
 }
 
 .current {

@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <title>Redesigning AI training for everyone</title>
+      <script src="https://use.fontawesome.com/04ee9d7103.js"></script>
+      <link rel="stylesheet prefetch" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
+      <link rel="stylesheet" type="text/css" href="css/style.css" />
+      <link rel="icon" type="image/png" sizes="16x16" href="images/logo_bw.png">
+      <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-89152223-1', 'auto');
+        ga('send', 'pageview');
+        <!-- Hotjar Tracking Code for www.lolajiang.com -->
+
+              (function(h,o,t,j,a,r){
+                  h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+                  h._hjSettings={hjid:574455,hjsv:5};
+                  a=o.getElementsByTagName('head')[0];
+                  r=o.createElement('script');r.async=1;
+                  r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+                  a.appendChild(r);
+              })(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
+      </script>
+      <script language="javascript">
+          var password;
+          var pass1="68Lj)9C?t74C3K";
+          password=prompt('Enter Password To View Page',' ');
+          if (password==pass1)
+          alert('Correct password, click OK to enter.');
+          else {
+              window.location='index.html#project2';
+          }
+      </script>
+    </head>
+    <body oncontextmenu="return false">
+        <header>
+          <nav class="hamburger-menu">
+            <a>
+              <span class="hamburger-line"></span>
+              <span class="hamburger-line"></span>
+              <span class="hamburger-line"></span>
+            </a>
+          </nav>
+          <nav class="logo"><a href="index.html"><img src="images/logo_bw.png" alt="logo"></a></nav>
+          <nav class="menu-nav-hz">
+            <ul class="menu-hz">
+                <li class="menu-hz-li current" ><a class="menu" href="index.html#project1">Portfolio</a></li>
+                <li class="menu-hz-li"><a class="menu" target="_blank" href="https://drive.google.com/file/d/0Bx7sU9ts8uXKOHAwazFNUDNZOFE/view">Résumé</a></li>
+                <li class="menu-hz-li"><a class="menu" href="playground.html">Illustration</a></li>
+                <li class="menu-hz-li"><a class="menu" href="about.html">About</a></li>
+            </ul>
+          </nav>
+        </header>
+
+        <img src="images/ai/ai-dashboard-mockup.png" class="img-fluid" alt="ai training mockup" />
+        <div class="container">
+            <div class="row">
+              <div class="col-md-6">
+                <p class="label">Individual Project</p>
+              </div>
+              <div class="col-md-12">
+                <h1>Redesigning AI training for everyone</h1>
+                <p class="intro"> I was the sole web designer for a leading conversational AI training platform for bank accounts. Making AI training make sense to people, so they are more confident to make informed decisions.</p>
+              </div>
+            </div>
+        </div>
+          <!-- two coloumns -->
+         <div class="container">
+            <div class="row">
+              <div class="col-md-6">
+                <p >Clinc builds the most advanced conversational AI platform for financial services, and delivering enterprise grade AI solutions to the world's leading banking and financial industry. It’s used by companies like USAA, and gives users the power to have a new and revolutionary conversational AI experience with their financial information.</p>
+            </div>
+            <div class="col-md-6">
+                <p>As the only designer working on Clinc's AI training platform, I led the project to revamp the visual style and solve the key usability issues by continuously re-imagining what it’s like for Clinc's users to train AI. I'll share my learning on how I understand user’s mental model and break down the barriers to help them train AI easily.</p>
+             </div>
+            </div>
+          </div>
+
+          <div class="container">
+              <div class="row">
+                <div class="col-md-3">
+                  <p class="label">Visual Language</p>
+                </div>
+                <div class="col-md-12">
+                  <h2>How to Start a Design System and Construct it?</h2>
+                  <!-- <img src="images/ai/design-guideline.jpg" alt="design guideline" />
+                 <div class="row">
+                   <div class="col-md-12 ">
+                     <h5 style="text-align: center">Prior to jumping into the design details, I created a basic style guide. This style guide loosely defined our typography, colors and spacing. It helps me to guide my work in a unified direction while allowing room for me to explore creative design solutions for each individual page.</h5>
+                   </div>
+                  </div> -->
+                </div>
+              </div>
+          </div>
+
+          <!-- two coloumns -->
+         <div class="container">
+            <div class="row">
+              <div class="col-md-6">
+                <p >For the design system, I wanted to mature the Clinc brand and take the visual style from something that was very bootstrap like to incorporating more vivid and mirroring the visual style of our main website.</p>
+            </div>
+            <div class="col-md-6">
+                <p>After I created a basic style guide, I began mockup up the screens in code using our existing stylesheets. Using our own code made it really easy for me to get a sense for our system as a new team member and show in real-time what projects might look like to stakeholders. This approached was much faster and allowed for quick iteration.</p>
+             </div>
+            </div>
+          </div>
+
+        <img src="images/ai/before&after.png" alt="before & after">
+
+        <div class="container">
+            <div class="row">
+              <div class="col-md-3">
+                <p class="label">Usability Issues</p>
+              </div>
+              <div class="col-md-12">
+                <h2>Why the Old Training Website Fails and How to Fix it?</h2>
+              </div>
+            </div>
+            <img src="images/ai/team.jpg" alt="ai engineers" />
+           <div class="row">
+             <div class="col-md-12 ">
+               <h5 style="text-align: center">I did some quick user testings with 2 AI engineers (power users) and 2 software engineer interns (non-power users) to evaluate the usability of our training website.</h5>
+             </div>
+            </div>
+        </div>
+            <!-- three columns -->
+              <article class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <p>I did some quick user testings with 2 AI engineers (power users) and 2 software engineer interns (non-power users) to evaluate the usability of the training process. I asked them to create a competency and observed how they trained the competency. These user testings revealed some important findings:</p>
+                    </div>
+                    <div class="col-md-12" style="text-align: center">
+                        <img class="testimonial-avatar" src="images/ai/personas/power-user.png" alt="power user">
+                        <h3>Power User</h3>
+                    </div>
+                    <div class="col-md-6" style="text-align: center">
+                        <img class="icon" src="images/ai/icons/navigation-issue.png" alt="navigation issue icon">
+                        <div class="content1">Navigation Issue</div>
+                        <blockquote class="pull-quote-noline"><p class="quote">"I have to switch between left panel and right panel to make changes. It's so cumbersome."</p></blockquote>
+                    </div>
+                    <div class="col-md-6" style="text-align: center">
+                        <img class="icon" src="images/ai/icons/insufficient-feedback.png" alt="insufficient feedback icon">
+                        <div class="content1">Insufficient Feedback</div>
+                        <blockquote class="pull-quote-noline"><p class="quote">"I  have to constantly check if I'm doing changes on the right competency."</p></blockquote>
+                    </div>
+
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <img class="browser-screenshot" src="images/ai/old-website-usability-issue1.png" alt="old website usability issue 1" />
+                               <div class="row">
+                                 <div class="col-md-12 ">
+                                   <h5 style="text-align: center">An example of poor usability for power users. The navigation is so cumbersome even for the power users. They are also less confident to train the competency due to the insufficient feedback.</h5>
+                                 </div>
+                                </div>
+                                <ol class="browser-annotations">
+                                    <li style="top: 450px; left: 100px; width: 275px" class="annotation-top">
+                                        <div class="annotation-title">Navigation Issue</div>
+                                        Power users have to switch back and forth between sidebar and work area to make changes. They want a smoother flow to add a new competency.
+                                    </li>
+                                    <li style="top: 200px; left: 600px; width: 350px" class="annotation-left">
+                                        <div class="annotation-title">Insufficient Feedback</div>
+                                        All the training data have been listed, some of which are irrelevant to the new competency. Power users have to constantly check if they are doing changes on the right competency.
+                                    </li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-12" style="text-align: center">
+                        <img class="testimonial-avatar" src="images/ai/personas/nonpower-user.png" alt="power user">
+                        <h3>Non-power User</h3>
+                    </div>
+                    <div class="col-md-6" style="text-align: center">
+                        <img class="icon" src="images/ai/icons/navigation-issue.png" alt="navigation issue icon">
+                        <div class="content1">Navigation Issue</div>
+                        <blockquote class="pull-quote-noline"><p class="quote">"I didn’t notice that I can switch to different pages with the help of the left nav bar."</p></blockquote>
+                    </div>
+                    <div class="col-md-6" style="text-align: center">
+                        <img class="icon" src="images/ai/icons/insufficient-feedback.png" alt="insufficient feedback icon">
+                        <div class="content1">Insufficient Feedback</div>
+                        <blockquote class="pull-quote-noline"><p class="quote">"After adding utterances, what to do next? Should I hit this prominent button?"</p></blockquote>
+                    </div>
+                    <div class="col-md-6" style="text-align: center">
+                        <img class="icon" src="images/ai/icons/unclear-process.png" alt="unclear process icon">
+                        <div class="content1">Unclear Process</div>
+                        <blockquote class="pull-quote-noline"><p class="quote">"You know where you are, but it’s hard to know what to do next. The flow is confusing."</p></blockquote>
+                    </div>
+                    <div class="col-md-6" style="text-align: center">
+                        <img class="icon" src="images/ai/icons/confusing-terminology.png" alt="confusing terminologies icon">
+                        <div class="content1">Confusing Terminologies</div>
+                        <blockquote class="pull-quote-noline"><p class="quote">"I have no idea what's the difference between ‘responses’ and ‘config file’."</p></blockquote>
+                    </div>
+                </div>
+            </article>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <img class="browser-screenshot" src="images/ai/old-website-usability-issue1.png" alt="old website usability issue 1" />
+                       <div class="row">
+                         <div class="col-md-12 ">
+                           <h5 style="text-align: center">An example of poor usability for non-power users. Besides the two usability issues faced with power users, the training process also confuses and frustates them.</h5>
+                         </div>
+                        </div>
+                        <ol class="browser-annotations">
+                            <li style="top: 25px; left: 100px; width: 350px" class="annotation-left">
+                                <div class="annotation-title">Navigation Issue</div>
+                                The sidebar doesn't make much sense to non-power users. One user didn’t notice that he can switch to different pages with the help of the sidebar. Instead, he constantly used the back and forward buttons in the web browser to navigate.
+                            </li>
+                            <li style="top: 250px; left: 700px; width: 275px" class="annotation-top">
+                                <div class="annotation-title">Insufficient Feedback</div>
+                                Non-power users can't receive enought feedback of what to do next after they add several training data. One user tried to hit the training button, which would cause problem due to the incomplete training process.
+                            </li>
+                            <li style="top: 450px; left: 100px; width: 275px" class="annotation-top">
+                                <div class="annotation-title">Unclear Process</div>
+                                Non-power users have no idea what's the training process. The flow is confusing to them. As one user said:“It’s hard to know what to do next, the flow is confusing.”
+                            </li>
+                            <li style="top: 550px; left: 600px; width: 350px" class="annotation-left">
+                                <div class="annotation-title">Confusing Terminologies</div>
+                                Terminology is another hindrance for non-power users. Although they kind of grasp the basic concepts of competency, state, classification, slot and utterance, to apply the understanding to the training is another story.
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- two coloumns -->
+           <div class="container">
+              <div class="row">
+                <div class="col-md-6">
+                  <p>Helping people train an AI is hard. The old website has all the features splattered around without clear information architecture for power users or helpful guidance for non-power users. People usually end up being stuck in the middle, confronted with an error or a failure, with no confidence to go through the whole daunting process.
+                  </p>
+              </div>
+              <div class="col-md-6">
+                  <p>Based on the research, I worked on figuring out some goals that would guide me through my design journey. A good set of design goals can make sure the solutions are aligned with the usability issues I am trying to solve. I raised two "How Might We" questions to solve the problem:</p>
+                  <ul>
+                      <li>How might we help users understand the training process?</li>
+                      <li>How might we help users gather key info?</li>
+                  </ul>
+               </div>
+              </div>
+            </div>
+
+            <div class="container">
+                <div class="row">
+                  <div class="col-md-3">
+                    <p class="label">Design Challenge 1</p>
+                  </div>
+                  <div class="col-md-12">
+                    <h2>How Might We Help Users Understand the Training Process?</h2>
+                  </div>
+                </div>
+                <img src="images/ai/iterations-of-illustrations-of-mental-models.png" alt="iterations of illustrations of mental models" />
+               <div class="row">
+                 <div class="col-md-12 ">
+                   <h5 style="text-align: center">A few early illustrations I designed for non-power users to understand the training process. See how they evolved along with my understanding with the help of AI engineers.</h5>
+                 </div>
+                </div>
+            </div>
+
+
+            <!-- two coloumns -->
+           <div class="container">
+              <div class="row">
+                <div class="col-md-12">
+                  <p>Once I finalized the accurate training process and compared it to the information architecture of the old website, it clearly shows the two key usability issues confront users: Navigation Issue & Unclear Process
+                  </p>
+                </div>
+                <!-- <div class="col-md-6" style="text-align: center">
+                    <img class="icon" src="images/ai/icons/navigation-issue.png" alt="navigation issue icon">
+                    <div class="content1">Navigation Issue</div>
+                    <blockquote class="pull-quote-noline"><p class="quote">"I have to switch between the sidebar and work area to make changes. It's so cumbersome."</p></blockquote>
+                    <img class="testimonial-avatar avatar-bottom" src="images/ai/personas/power-user.png" alt="power user">
+                </div>
+                <div class="col-md-6" style="text-align: center">
+                    <img class="icon" src="images/ai/icons/unclear-process.png" alt="unclear process icon">
+                    <div class="content1">Unclear Process</div>
+                    <blockquote class="pull-quote-noline"><p class="quote">"You know where you are, but it’s hard to know what to do next. The flow is confusing."</p></blockquote>
+                    <img class="testimonial-avatar avatar-bottom" src="images/ai/personas/nonpower-user.png" alt="power user">
+                </div> -->
+              </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12"  style="padding:0;">
+                    <img src="images/ai/before&after-training-process.png" alt="An accurate illustration of the AI training process" />
+                </div>
+            </div>
+            <div class="container">
+               <div class="row">
+                 <div class="col-md-6">
+                   <h5 style="text-align: center">An accurate illustration of the AI training process</h5>
+               </div>
+               <div class="col-md-6">
+                   <h5 style="text-align: center">Users can't rely on the sidebar to walk through the training process.</h5>
+                </div>
+               </div>
+             </div>
+
+            <!-- two coloumns -->
+           <div class="container">
+              <div class="row">
+                <div class="col-md-6">
+                  <p>At the moment, people can't rely on the sidebar to navigate the training process. How to make sense of the complex system? How to communicate the training process to people? How to apply the previous learnings to improve the flow? Also, how to break down the barriers?
+                  </p>
+              </div>
+              <div class="col-md-6">
+                  <p>I then started exploring what the ideal training experience could be. After a few brainstorming sessions, I came up with a few ideas that I started designing and prototyping: steppers, a training guide section, tips, navigation bar, training guide page…</p>
+               </div>
+              </div>
+            </div>
+
+
+            <div class="col-md-12" style="padding: 0px;">
+                <img src="images/ai/exploration-of-training-process.png" alt="A few concepts I prototyped to guide users through the training process.">
+                <ol class="browser-annotations">
+                    <li style="top: 29%; left: 11%; width: 15%;" class="annotation-top">
+                        Training process is an iterative process, while the steppers fail to give users much freedom to go back and forth between steps.
+                    </li>
+                    <!-- <li style="top: 32%; left: 40%; width: 25%;" class="annotation-top blue none">
+                        Power users like to see the overview of training progress at a glance.
+                    </li>
+                    <li style="top: 42%; left: 40%; width: 25%;" class="annotation-left none">
+                        However, it might be a little bit overwhelming for non-power users to understand.
+                    </li>
+                    <li style="top: 44%; left: 72%; width: 25%;" class="annotation-left blue none">
+                        Convinent enough and easy to implement.
+                    </li>
+                    <li style="top: 83%; left: 7%; width: 25%;" class="annotation-top none">
+                        Several sections have duplicate content; the relationship between each section is more complicated. It's also not straightforward enough compared to other concepts.
+                    </li>
+                    <li style="top: 80%; left: 40%; width: 25%;" class="annotation-left blue none">
+                        Easy to understand and follow.
+                    </li>
+                    <li style="top: 88%; left: 40%; width: 25%;" class="annotation-left none">
+                        Flexibility might be compromised because users have to go to a new page for each step.
+                    </li> -->
+                    <li style="top: 76%; left: 77%; width: 21%;" class="annotation-left blue">
+                        Strike a perfect balance between navigation and flexibility. Users won't lose context when they go back and forth between steps and get the job done.
+                    </li>
+                </ol>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h5 style="text-align: center">A few concepts I prototyped to guide users through the training process.</h5>
+                    </div>
+                </div>
+            </div>
+
+            <!-- two coloumns -->
+           <div class="container">
+              <div class="row">
+                <div class="col-md-12">
+                  <p>I settled down with creating a training guide page with work area because users won't lose their context when they navigate. It was unclear, though, what was the best way to design the training guide. I experimented with a few options including:
+                  </p>
+              </div>
+              </div>
+            </div>
+
+            <div class="col-md-12" style="padding: 0px;">
+                <img src="images/ai/exploration-of-training-process2.png" alt="Exploration for the layout of new training guide page">
+                <ol class="browser-annotations">
+                    <li style="top: 69%; left: 42%; width: 22%;" class="annotation-top blue">
+                        Users can navigate the training process without losing context. This concept is also more common than the other two two for a step-by-step guide.
+                    </li
+                </ol>
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h5 style="text-align: center">Exploration for the new training guide with work area</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+               <div class="row">
+                 <div class="col-md-12">
+                   <p>I went with the second one because this structure is the most common one (e.g. Google Slides or Coursera). Also, the second option has the least visual clutter and effectively leads users to use the training guide.
+                   </p>
+               </div>
+               </div>
+             </div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <img class="browser-screenshot" src="images/ai/training-guide-with-work-area.png" alt="training guide with work area" />
+                       <div class="row">
+                         <div class="col-md-12 ">
+                           <h5 style="text-align: center">Training Guide with Work Area. Users can train AI at their fingertips.</h5>
+                         </div>
+                        </div>
+                        <ol class="browser-annotations">
+                            <li style="top: 20%; left: 55%; width: 29%;" class="annotation-left blue">
+                                Users can do the training directly in the work area. No need to jump back and forth between other pages any more.
+                            <li style="top: 63%; left: 17%; width: 16%;" class="annotation-top blue">
+                                They can also follow the training guide to see exactly what each step should be.
+                            </li>
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+
+            <!-- <div class="container">
+               <div class="row">
+                 <div class="col-md-6" style="text-align: center">
+                     <img class="icon" src="images/ai/icons/navigation-issue.png" alt="navigation issue icon">
+                     <div class="content1">Easy Navigation</div>
+                     <blockquote class="pull-quote-noline"><p class="quote">"Love having this level of detailed control over training steps, laid out in a very user friendly way."</p></blockquote>
+                     <img class="testimonial-avatar avatar-bottom" src="images/ai/personas/power-user.png" alt="power user">
+                 </div>
+                 <div class="col-md-6" style="text-align: center">
+                     <img class="icon" src="images/ai/icons/unclear-process.png" alt="unclear process icon">
+                     <div class="content1">Clear Process</div>
+                     <blockquote class="pull-quote-noline"><p class="quote">"You know where you are. You know what to do next. Awesome job!"</p></blockquote>
+                     <img class="testimonial-avatar avatar-bottom" src="images/ai/personas/nonpower-user.png" alt="power user">
+                 </div>
+               </div>
+             </div> -->
+
+
+            <div class="container">
+                <div class="row">
+                  <div class="col-md-3">
+                    <p class="label">Design Challenge 2</p>
+                  </div>
+                  <div class="col-md-12">
+                    <h2>How Might We Help Users Gather Key Info?</h2>
+                  </div>
+                </div>
+            </div>
+
+            <!-- two coloumns -->
+           <div class="container">
+              <div class="row">
+                <div class="col-md-6">
+                  <p>As I was making progress on the training, I was also thinking about what would be an easy way for people to gather key info so that they can make informed decisions. Meanwhile, I decided to solve the issue of poor information architecture, and started discovering the reasons broke the navigation experience.
+                  </p>
+              </div>
+              <div class="col-md-6">
+                  <p>One thing caught my attention. There was one page with all the relevant key info that Helping people train an AI is hardwas hidden so deep for users to get access to. That's why in the usability testing one user constantly used the back and forward buttons in the web browser to get back to this page.</p>
+               </div>
+              </div>
+            </div>
+
+            <div class="col-md-12" style="padding: 0px;">
+                <img src="images/ai/exploration-of-information-architecture.png" alt="A few concepts I prototyped to guide users through the training process.">
+                <ol class="browser-annotations">
+                    <li style="top: 56%; left: 17%; width: 21%;" class="annotation-left blue">
+                        The most interesting one with flatter information architecture. Users can see all the related info at a glance without digging deep into the website. However, is it the best choice to put the info graph in the State Graph Page?
+                    </li>
+                </ol>
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h5 style="text-align: center">A few concepts I prototyped to help users get key info easily.</h5>
+                    </div>
+                </div>
+            </div>
+
+            <!-- two coloumns -->
+           <div class="container">
+              <div class="row">
+                <div class="col-md-6">
+                  <p>This is a tricky task. I spent hours at whiteboards trying to figure out how users would be able to navigate the website and gather key info easily.
+                  </p>
+              </div>
+              <div class="col-md-6">
+                  <p>Then I had the outside-the-box idea of offering an overview page. Users can see all the related info at a glance without digging deep into the website. A perfect solution! I also find a way of displaying the latest created competency at the top. I made use of card design that serves as an entry point to the training guide page.</p>
+               </div>
+              </div>
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <img class="browser-screenshot" src="images/ai/new-overview-page.png" alt="new overview page" />
+                       <div class="row">
+                         <div class="col-md-12 ">
+                           <h5 style="text-align: center">New Overview Page. Users can keep track of the training progress easily.</h5>
+                         </div>
+                        </div>
+                        <ol class="browser-annotations">
+                            <li style="top: 20%; left: 55%; width: 25%;" class="annotation-left blue">
+                                Use hints to tell users what to do next.
+                            </li>
+                            <li style="top: 40%; left: 7%; width: 16%;" class="annotation-top blue">
+                                List the in-progress competency at the top.
+                            </li>
+                            <li style="top: 43%; left: 35%; width: 20%;" class="annotation-top blue">
+                                Inform users the states of training and what to do next.
+                            </li>
+                            <li style="top: 58%; left: 75%; width: 25%;" class="annotation-left blue">
+                                Users can see all the related info at a glance without digging deep into the website.
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+
+            <!-- <div class="container">
+               <div class="row">
+                 <div class="col-md-6" style="text-align: center">
+                     <img class="icon" src="images/ai/icons/unclear-process.png" alt="unclear process icon">
+                     <div class="content1">Clear Process</div>
+                     <blockquote class="pull-quote-noline"><p class="quote">"I am super happy with how easily I can keep track of everything, and this page has been on point."</p></blockquote>
+                     <img class="testimonial-avatar avatar-bottom" src="images/ai/personas/power-user.png" alt="power user">
+                 </div>
+                 <div class="col-md-6" style="text-align: center">
+                     <img class="icon" src="images/ai/icons/insufficient-feedback.png" alt="unclear process icon">
+                     <div class="content1">Valuable Feedback</div>
+                     <blockquote class="pull-quote-noline"><p class="quote">"I love how those metadata (colorful links) tell me the info I need."</p></blockquote>
+                     <img class="testimonial-avatar avatar-bottom" src="images/ai/personas/nonpower-user.png" alt="power user">
+                 </div>
+               </div>
+             </div> -->
+
+             <div class="row">
+                 <div class="col-md-6"  style="padding:0;">
+                     <img src="images/ai/old-information-architecture-icon.png" alt="Old information architecutre. The specific state page with all the relevant key info is hidden so deep for users to get access to easily." />
+                     <!-- <ol class="browser-annotations">
+                         <li style="top: 30%; left: 70%; width: 17%;" class="annotation-top">
+                             This page with all the relevant key info and relevant links is hidden so deep. Once users leave this page, it's hard for them to get back to it.
+                         </li>
+                         <li style="top: 62%; left: 56%; width: 20%;" class="annotation-left">
+                             Users have to jump back and forth between those pages.
+                         </li>
+                     </ol> -->
+                 </div>
+                 <div class="col-md-6"  style="padding:0;">
+                     <img src="images/ai/new-information-architecture-icon.png" alt="New information architecutre. Users can see the training progress and all the key info at a glance without digging deep into the website." />
+                     <!-- <ol class="browser-annotations">
+                         <li style="top: 29%; left: 30%; width: 20%;" class="annotation-top blue">
+                             Users can see the training progress and all the key info at a glance without digging deep into the website.
+                         </li>
+                         <li style="top: 25%; left: 70%; width: 21%;" class="annotation-left blue">
+                             Users can also follow the training guide to do the training directly in the work area.
+                         </li>
+                         <li style="top: 62%; left: 60%; width: 20%;" class="annotation-left blue">
+                             No need to jump back and forth between those pages any more.
+                         </li>
+                     </ol> -->
+                 </div>
+             </div>
+             <div class="container">
+                <div class="row">
+                  <div class="col-md-6">
+                    <h5 style="text-align: center">Old information architecutre. The specific state page with all the relevant key info is hidden so deep for users to get access to. That's why in the usability testing one user constantly used the back and forward buttons in the web browser to get back to this page.</h5>
+                </div>
+                <div class="col-md-6">
+                    <h5 style="text-align: center">New information architecutre. Users can see the training progress and all the key info at a glance without digging deep into the website. No need to jump back and forth between those pages any more.</h5>
+                 </div>
+                </div>
+              </div>
+
+             <!-- <div class="container">
+                 <div class="row">
+                     <div class="col-md-12">
+                         <img src="images/ai/old-information-architecture.png" alt="Old information architecutre. The specific state page with all the relevant key info is hidden so deep for users to get access to easily.">
+                         <ol class="browser-annotations">
+                             <li style="top: 30%; left: 70%; width: 17%;" class="annotation-top">
+                                 This page with all the relevant key info and relevant links is hidden so deep. Once users leave this page, it's hard for them to get back to it.
+                             </li>
+                             <li style="top: 62%; left: 56%; width: 20%;" class="annotation-left">
+                                 Users have to jump back and forth between those pages.
+                             </li>
+                         </ol>
+                         <h5 style="text-align: center">Old information architecutre. The specific state page with all the relevant key info is hidden so deep for users to get access to. That's why in the usability testing one user constantly used the back and forward buttons in the web browser to get back to this page.</h5>
+                     </div>
+                 </div>
+             </div>
+
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <img src="images/ai/new-information-architecture.png" alt="New information architecutre. Users can see the training progress and all the key info at a glance without digging deep into the website.">
+                        <ol class="browser-annotations">
+                            <li style="top: 29%; left: 30%; width: 20%;" class="annotation-top blue">
+                                Users can see the training progress and all the key info at a glance without digging deep into the website.
+                            </li>
+                            <li style="top: 25%; left: 70%; width: 21%;" class="annotation-left blue">
+                                Users can also follow the training guide to do the training directly in the work area.
+                            </li>
+                            <li style="top: 62%; left: 60%; width: 20%;" class="annotation-left blue">
+                                No need to jump back and forth between those pages any more.
+                            </li>
+                        </ol>
+                        <h5 style="text-align: center">New information architecutre. Users can see the training progress and all the key info at a glance without digging deep into the website.</h5>
+                    </div>
+                </div>
+            </div> -->
+
+
+
+              <div class="container">
+                  <div class="row">
+                    <div class="col-md-3">
+                      <p class="label">Reflection</p>
+                    </div>
+                    <div class="col-md-12">
+                      <h2>The Challenge</h2>
+                    </div>
+                  </div>
+              </div>
+                <!-- two coloumns -->
+               <div class="container">
+                  <div class="row">
+                      <div class="col-md-6">
+                        <p>The biggest challenge for this project was navigating the problem space. The task of “building a design system” sounded so daunting at first compared to how comprehensive and complicated the iOS design system or the Google Material Design system are. I am glad my design hit the bar.</p>
+                    </div>
+                    <div class="col-md-6">
+                        <p>AI training itself is also a new problem space for me. I had to keep bugging my colleagues to understand how it actually works. With this said, I got the chance to work with so many amazingly talented individuals before I left, so it was definitely worth it.
+                        </p>
+                        <p><a class="link" target="_blank" href="https://medium.com/@hjwwjxm/3-things-i-learned-during-my-ux-internship-at-clinc-50a82b229294">Want to learn more about my experience at Clinc? Check out my Medium post.</a></p>
+                    </div>
+                  </div>
+                </div>
+
+
+
+
+
+
+
+
+        <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <h2>Credit</h2>
+              </div>
+            </div>
+        </div>
+
+        <!-- three columns -->
+          <div class="container">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="content1">Individual Project</div>
+                <p>Lola Jiang</p>
+              </div>
+              <div class="col-md-4">
+                <div class="content1">Mentor</div>
+                <p>Lu Huang</p>
+              </div>
+              <div class="col-md-4">
+                <div class="content1">Project Duration</div>
+                <p>05.2017-08.2017</p>
+              </div>
+            </div>
+          </div>
+
+          <footer class="readnext" id="readnext-ng">
+            <h4>Read Previous</h4>
+            <h2>The all-new Nutritious Grocer</h2>
+            <a class="btn btn-primary" href="mindfulness.html" target="_blank">See Case Study</a>
+          </footer>
+
+        <footer class="contact">
+          <a class="scrollchange" href="mailto:hjwwjxm@umich.edu" target="_blank"><i class="fa fa-envelope-o"></i></a>
+          <a class="scrollchange"  href="https://www.linkedin.com/in/lolajiang" target="_blank"><i class="fa fa-linkedin"></i></a>
+        </footer>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.7.4/jquery.fullPage.min.js"></script>
+
+        <script src="javascript/hamburger-menu.js"></script>
+    </body>
+</html>
