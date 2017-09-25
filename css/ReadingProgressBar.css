@@ -1,0 +1,125 @@
+/**, *:before, *:after {
+  box-sizing: border-box;
+}
+
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.clearfix {
+  *zoom: 1;
+}*/
+
+a {
+  -webkit-transition: color 100ms ease-in;
+  -moz-transition: color 100ms ease-in;
+  -o-transition: color 100ms ease-in;
+  transition: color 100ms ease-in;
+}
+a:hover, a:focus {
+  color: #DB5B33;
+}
+
+.progressbar {
+  display: none;
+  margin: 4em 0;
+}
+@media only screen and (min-width: 650px) {
+  .progressbar {
+    display: block;
+  }
+}
+.progressbar .shim {
+  display: none;
+  width: 100%;
+}
+.progressbar .holder {
+  padding: 1.8em 0 0 0;
+}
+@media only screen and (min-width: 750px) {
+  .progressbar .holder {
+    font-size: 90%;
+  }
+}
+@media only screen and (min-width: 900px) {
+  .progressbar .holder {
+    font-size: 95%;
+  }
+}
+/*.progressbar .holder .bar {
+  position: absolute;
+  left: 1px;
+  width: 1px;
+  height: 200px;
+  background-color: #c1c1c1;
+  top: 50%;
+  transform: translateY(-50%);
+}*/
+.progressbar .holder .bar .indicator {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background-color: #292b2c;
+}
+.progressbar .holder .labels {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 2em;
+}
+.progressbar .holder .labels i {
+  display: block;
+  position: relative;
+  cursor: pointer;
+  font-style: normal;
+  font-size: 14px;
+  font-family: "Julius Sans One";
+}
+
+.progressbar .holder .labels i::after {
+  display: block;
+  content: attr(data-label);
+  position: relative;
+  top: 0;
+  padding-bottom: 1.8em;
+  font-weight: 400;
+  color: #c1c1c1;
+  -webkit-transition: color 150ms ease-in, top 100ms ease-out;
+  -moz-transition: color 150ms ease-in, top 100ms ease-out;
+  -o-transition: color 150ms ease-in, top 100ms ease-out;
+  transition: color 150ms ease-in, top 100ms ease-out;
+}
+.progressbar .holder .labels i:hover::before, .progressbar .holder .labels i:focus::before {
+  background-color: #c1c1c1;
+}
+.progressbar .holder .labels i:hover::after, .progressbar .holder .labels i:focus {
+  color: #292b2c;
+}
+.progressbar .holder .labels i.read::before {
+  border-color: #c1c1c1;
+}
+.progressbar .holder .labels i.read:hover::before, .progressbar .holder .labels i.read:focus::before {
+  background-color: #c1c1c1;
+}
+.progressbar .holder .labels i.reading::after {
+  color: #292b2c;
+}
+.progressbar .holder .labels i.reading:hover::after, .progressbar .holder .labels i.reading:focus::after {
+  top: 0;
+}
+.progressbar.fixed .holder {
+  position: fixed;
+  top: 50%;
+  left: 0;
+  z-index: 1;
+  transform: translateY(-50%);
+}
+.progressbar.fixed .shim {
+  display: block;
+}

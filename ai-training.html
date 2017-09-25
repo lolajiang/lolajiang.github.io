@@ -6,6 +6,7 @@
       <script src="https://use.fontawesome.com/04ee9d7103.js"></script>
       <link rel="stylesheet prefetch" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
       <link rel="stylesheet" type="text/css" href="css/style.css" />
+      <!-- <link rel="stylesheet" type="text/css" href="css/ReadingProgressBar.css" class="cp-pen-styles" /> -->
       <link rel="icon" type="image/png" sizes="16x16" href="images/logo_bw.png">
       <script>
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -89,6 +90,7 @@
               <article class="col-md-8">
                 <h2>Why the Old Training Website Fails and How to Fix it?</h2>
                 <p>Helping people train an AI is hard. The old website has all the features splattered around without clear information architecture for power users or helpful guidance for non-power users. People usually end up being stuck in the middle, confronted with an error or a failure, with no confidence to go through the whole daunting process.</p>
+                <p>I did some quick user testings with 2 AI engineers (power users) and 2 software engineer interns (non-power users) to evaluate the usability of the training process. I asked them to create a competency and observed how they trained the competency. These user testings revealed some important findings:</p>
             </article>
             </div>
         </div>
@@ -209,22 +211,7 @@
                 <div class="row">
                   <article class="col-md-8">
                     <h2>Designing the AI training experience</h2>
-                </article>
-                </div>
-                <img src="images/ai/iterations-of-illustrations-of-mental-models.png" alt="iterations of illustrations of mental models" />
-               <div class="row">
-                 <article class="col-md-8 ">
-                   <h5 style="text-align: center">A few early illustrations I designed for non-power users to understand the training process. See how they evolved along with my understanding with the help of AI engineers.</h5>
-                 </article>
-                </div>
-            </div>
-
-
-            <!-- two coloumns -->
-           <div class="container">
-              <div class="row">
-                  <article class="col-md-8">
-                    <p>To help non-power users understand what exactly the AI training process is, I drew the illustration to visualize the training process. See how they evolved along with my understanding with the help of AI engineers.
+                    <p>To help non-power users understand what exactly the AI training process is, I interated on the illustration to visualize the training process with the help of AI engineers.
                     </p>
                   <p>Once I finalized the accurate training process and compared it to the information architecture of the old website, it clearly shows the two key usability issues confront users: Navigation Issue & Unclear Process.
                   </p>
@@ -240,7 +227,7 @@
             <div class="container">
                <div class="row">
                  <div class="col-md-6">
-                   <h5 style="text-align: center">An accurate illustration of the AI training process</h5>
+                   <h5 style="text-align: center">An accurate illustration of the AI training process with the help of AI engineers</h5>
                </div>
                <div class="col-md-6">
                    <h5 style="text-align: center">Users can't rely on the sidebar to walk through the training process.</h5>
@@ -252,7 +239,7 @@
            <div class="container">
               <div class="row">
                 <article class="col-md-8">
-                    <h3>How might we help users understand the training process?</h3>
+                    <h3>Key Question 1: How might we help users understand the training process?</h3>
                   <p>At the moment, people can't rely on the sidebar to navigate the training process. How to make sense of the complex system? How to communicate the training process to people? How to apply the previous learnings to improve the flow? Also, how to break down the barriers?
                   </p>
                   <p>I then started exploring what the ideal training experience could be. After a few brainstorming sessions, I came up with a few ideas that I started designing and prototyping: steppers, a training guide section, tips, navigation bar, training guide page…</p>
@@ -261,30 +248,12 @@
             </div>
 
 
-            <div class="col-md-12" style="padding: 0px;">
+            <div class="container">
                 <img src="images/ai/exploration-of-training-process.png" alt="A few concepts I prototyped to guide users through the training process.">
                 <ol class="browser-annotations">
-                    <li style="top: 29%; left: 11%; width: 15%;" class="annotation-top">
+                    <li style="top: 29%; left: 7%; width: 25%;" class="annotation-top">
                         Training process is an iterative process, while the steppers fail to give users much freedom to go back and forth between steps.
                     </li>
-                    <!-- <li style="top: 32%; left: 40%; width: 25%;" class="annotation-top blue none">
-                        Power users like to see the overview of training progress at a glance.
-                    </li>
-                    <li style="top: 42%; left: 40%; width: 25%;" class="annotation-left none">
-                        However, it might be a little bit overwhelming for non-power users to understand.
-                    </li>
-                    <li style="top: 44%; left: 72%; width: 25%;" class="annotation-left blue none">
-                        Convinent enough and easy to implement.
-                    </li>
-                    <li style="top: 83%; left: 7%; width: 25%;" class="annotation-top none">
-                        Several sections have duplicate content; the relationship between each section is more complicated. It's also not straightforward enough compared to other concepts.
-                    </li>
-                    <li style="top: 80%; left: 40%; width: 25%;" class="annotation-left blue none">
-                        Easy to understand and follow.
-                    </li>
-                    <li style="top: 88%; left: 40%; width: 25%;" class="annotation-left none">
-                        Flexibility might be compromised because users have to go to a new page for each step.
-                    </li> -->
                     <li style="top: 76%; left: 77%; width: 21%;" class="annotation-left blue">
                         Strike a perfect balance between navigation and flexibility. Users won't lose context when they go back and forth between steps and get the job done.
                     </li>
@@ -310,13 +279,8 @@
               </div>
             </div>
 
-            <div class="col-md-12" style="padding: 0px;">
+            <div class="container">
                 <img src="images/ai/exploration-of-training-process2.png" alt="Exploration for the layout of new training guide page">
-                <ol class="browser-annotations">
-                    <li style="top: 69%; left: 42%; width: 22%;" class="annotation-top blue">
-                        Users can navigate the training process without losing context. This concept is also more common than the other two two for a step-by-step guide.
-                    </li>
-                </ol>
             </div>
 
             <div class="container">
@@ -352,36 +316,11 @@
            <div class="container">
               <div class="row">
                 <article class="col-md-8">
-                    <h3>How might we help users gather key info?</h3>
+                    <h3>Key Question 2: How might we help users gather key info?</h3>
                   <p>As I was making progress on the training, I was also thinking about what would be an easy way for people to gather key info so that they can make informed decisions. Meanwhile, I decided to solve the issue of poor information architecture, and started discovering the reasons broke the navigation experience.
                   </p>
                   <p>One thing caught my attention. There was one page with all the relevant key info was hidden so deep for users to get access to. That's why in the usability testing one user constantly used the back and forward buttons in the web browser to get back to this page.
                   </p>
-              </article>
-              </div>
-            </div>
-
-            <div class="col-md-12" style="padding: 0px;">
-                <img src="images/ai/exploration-of-information-architecture.png" alt="A few concepts I prototyped to guide users through the training process.">
-                <ol class="browser-annotations">
-                    <li style="top: 56%; left: 17%; width: 21%;" class="annotation-left blue">
-                        The most interesting one with flatter information architecture. Users can see all the related info at a glance without digging deep into the website. However, is it the best choice to put the info graph in the State Graph Page?
-                    </li>
-                </ol>
-            </div>
-
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <h5 style="text-align: center">A few concepts I prototyped to help users get key info easily.</h5>
-                    </div>
-                </div>
-            </div>
-
-            <!-- two coloumns -->
-           <div class="container">
-              <div class="row">
-                <article class="col-md-8">
                   <p>Then I had the outside-the-box idea of offering an overview page. Users can see all the related info at a glance without digging deep into the website. A perfect solution! I also find a way of displaying the latest created competency at the top. I made use of card design that serves as an entry point to the training guide page.</p>
               </article>
               </div>
@@ -416,10 +355,10 @@
 
              <div class="row">
                  <div class="col-md-6"  style="padding:0;">
-                     <img src="images/ai/old-information-architecture-icon.png" alt="Old information architecutre. The specific state page with all the relevant key info is hidden so deep for users to get access to easily." />
+                     <img src="images/ai/old-information-architecture-icon-simplecolor.png" alt="Old information architecutre. The specific state page with all the relevant key info is hidden so deep for users to get access to easily." />
                  </div>
                  <div class="col-md-6"  style="padding:0;">
-                     <img src="images/ai/new-information-architecture-icon.png" alt="New information architecutre. Users can see the training progress and all the key info at a glance without digging deep into the website." />
+                     <img src="images/ai/new-information-architecture-icon-simplecolor.png" alt="New information architecutre. Users can see the training progress and all the key info at a glance without digging deep into the website." />
                  </div>
              </div>
              <div class="container">
@@ -465,7 +404,7 @@
 
           <footer class="readnext" id="readnext-ng">
             <h4>Read Previous</h4>
-            <h2>The all-new Nutritious Grocer</h2>
+            <h6>The all-new Nutritious Grocer</h6>
             <a class="btn btn-primary" href="nutritious-grocer.html" target="_blank">See Case Study</a>
           </footer>
 
@@ -479,5 +418,6 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.7.4/jquery.fullPage.min.js"></script>
 
         <script src="javascript/hamburger-menu.js"></script>
+        <!-- <script src="javascript/ReadingProgressBar.js"></script> -->
     </body>
 </html>

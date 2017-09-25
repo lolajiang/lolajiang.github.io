@@ -177,8 +177,12 @@ h5 {
 }
 
 h6 {
-	 font-weight: 400;
-	 margin-bottom: 25px;
+    font-size: 42px;
+    line-height: 50px;
+    margin: 0px 0px 0.5em 0px;
+    font-family: "Quattrocento Sans";
+    font-weight: 400;
+    font-style: normal;
 }
 
 p {
@@ -652,7 +656,7 @@ li {
 .readnext>h4 {
     font-family: 'Quattrocento';
 }
-.readnext > h2 {
+.readnext > h6 {
     font-family: 'Quattrocento';
 }
 /* Gallery */
