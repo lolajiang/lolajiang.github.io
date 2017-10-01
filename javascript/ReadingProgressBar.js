@@ -8,7 +8,7 @@ jQuery.extend(jQuery.easing, {
 $(document).ready(function(){
 
   // set up and create progress bar in DOM
-  $('h2').eq(0).before('<div class="progressbar"></div>');
+  $('div').eq(0).before('<nav class="progressbar fixed"></nav>');
   var container = $('.progressbar');
 	container.append('<div class="shim"></div>');
   var shim = $('.progressbar .shim');
@@ -45,24 +45,6 @@ $(document).ready(function(){
   setIndicatorX();
   $(window).resize(function(){ setIndicatorX(); });
 
-	// fix/unfix progress bar to top of viewport
-	function fixPosition(){
-		if(container.is(':visible')) {
-			if(!container.hasClass('fixed')) {
-				if(holder.offset().top <= $(window).scrollTop()) {
-          container.addClass('fixed');
-        }
-			}
-			else {
-				if(shim.offset().top > $(window).scrollTop()) {
-          container.removeClass('fixed');
-        }
-			}
-		}
-	}
-	fixPosition();
-	$(window).scroll(function(){ fixPosition() });
-	$(window).resize(function(){ fixPosition(); });
 
   // set trigger point
   // i.e. how far down viewport is the "eye line"

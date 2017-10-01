@@ -117,9 +117,20 @@ a:hover, a:focus {
   position: fixed;
   top: 50%;
   left: 0;
-  z-index: 1;
+  z-index: 0;
   transform: translateY(-50%);
 }
 .progressbar.fixed .shim {
   display: block;
+}
+
+.shown {
+    animation-name: fadeIn;
+    animation-duration: 1s;
+}
+
+.hidden {
+    opacity: 0;
+    animation-name: fadeOut;
+    animation-duration: 0.8s;
 }

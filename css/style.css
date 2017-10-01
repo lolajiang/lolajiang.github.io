@@ -284,6 +284,10 @@ p.intro-paragraph {
 	 font-style: italic;
 }
 
+img {
+    position: relative;
+    z-index: 1;
+}
 img.wide {
 	 max-width: 100%;
 	 width: 453px;
@@ -635,6 +639,8 @@ li {
   color: #fff;
   padding: 15% 0;
   margin-top: 60px;
+  z-index: 1;
+  position: relative;
 }
 
 #readnext-ai{
@@ -653,8 +659,9 @@ li {
    background: url("https://images.unsplash.com/photo-1480471305927-c526773089f8?dpr=2&auto=format&fit=crop&w=767&h=511&q=80&cs=tinysrgb&crop=") no-repeat center;
 }
 
-.readnext>h2 {
+.readnext>h3 {
     font-family: 'Quattrocento';
+    font-size: 31.5px;
 }
 
 .readnext>h4 {
