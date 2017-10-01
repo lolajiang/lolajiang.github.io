@@ -17,10 +17,10 @@
 }*/
 
 a {
-  -webkit-transition: color 100ms ease-in;
+  /*-webkit-transition: color 100ms ease-in;
   -moz-transition: color 100ms ease-in;
   -o-transition: color 100ms ease-in;
-  transition: color 100ms ease-in;
+  transition: color 100ms ease-in;*/
 }
 a:hover, a:focus {
   color: #DB5B33;
@@ -90,10 +90,10 @@ a:hover, a:focus {
   padding-bottom: 1.8em;
   font-weight: 400;
   color: #c1c1c1;
-  -webkit-transition: color 150ms ease-in, top 100ms ease-out;
+  /*-webkit-transition: color 150ms ease-in, top 100ms ease-out;
   -moz-transition: color 150ms ease-in, top 100ms ease-out;
   -o-transition: color 150ms ease-in, top 100ms ease-out;
-  transition: color 150ms ease-in, top 100ms ease-out;
+  transition: color 150ms ease-in, top 100ms ease-out;*/
 }
 .progressbar .holder .labels i:hover::before, .progressbar .holder .labels i:focus::before {
   background-color: #c1c1c1;
