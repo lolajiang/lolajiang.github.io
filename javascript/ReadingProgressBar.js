@@ -24,6 +24,7 @@ $(document).ready(function(){
 		var code = '<i data-label="'+$(this).text()+'"></i>';
 		labels.append(code);
 	});
+	var labels = $('.progressbar .labels');
 	var points = labels.find('i');
 	// points.css('width', 100/$('h2').length+'%');
 
