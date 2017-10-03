@@ -1040,16 +1040,31 @@ li {
 }
 
 /*preoload images*/
+.preload:before {
+    position: absolute;
+    width:0;
+    height:0;
+    visibility:hidden;
+}
+/*ai*/
 #overview-page:before
-		{content: url("../images/ai/new-overview-page-hover.png");
-        position: absolute;
-		 width:0;
-		 height:0;
-		 visibility:hidden;}
+		{content: url("../images/ai/new-overview-page-hover.png");}
 
- #overview-page:before
- 		{content: url("../images/ai/training-guide-with-work-area-hover.png");
-        position: absolute;
- 		 width:0;
- 		 height:0;
- 		 visibility:hidden;}
+ #work-area:before
+ 		{content: url("../images/ai/training-guide-with-work-area-hover.png");}
+
+/*ng*/
+#ng-search_recipe:before
+		{content: url("../images/nutritious-grocer/ng-search_recipe-hover.jpg");}
+
+#ng-individual_recipe:before
+		{content: url("../images/nutritious-grocer/ng-individual_recipe-hover.jpg");}
+
+#ng-pantry:before
+		{content: url("../images/nutritious-grocer/ng-pantry-hover.jpg");}
+
+#ng-pantry-item:before
+		{content: url("../images/nutritious-grocer/ng-pantry-item-hover.jpg");}
+
+#ng-cart:before
+		{content: url("../images/nutritious-grocer/ng-cart-hover.jpg");}
