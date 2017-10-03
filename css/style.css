@@ -1038,3 +1038,18 @@ li {
 	z-index: 9999;
 	background: url(../images/loader.gif) 50% 50% no-repeat rgb(249,249,249);
 }
+
+/*preoload images*/
+#overview-page:before
+		{content: url("../images/ai/new-overview-page-hover.png");
+        position: absolute;
+		 width:0;
+		 height:0;
+		 visibility:hidden;}
+
+ #overview-page:before
+ 		{content: url("../images/ai/training-guide-with-work-area-hover.png");
+        position: absolute;
+ 		 width:0;
+ 		 height:0;
+ 		 visibility:hidden;}

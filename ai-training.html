@@ -28,19 +28,19 @@
               })(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
       </script>
       <script language="javascript">
-          var password;
-          list = ["68Lj)9C?t74C3K", "TDs+fs267AQ{3cU6CGP"];
-          password=prompt('Enter Password To View Page',' ');
-          if (list.indexOf(password) >= 0)
-          alert('Correct password, click OK to enter.');
-          else {
-              alert('Oops! Incorrect password. Please make sure there is no whitespace in password.');
-              window.location='index.html#project2';
+        //   var password;
+        //   list = ["68Lj)9C?t74C3K", "TDs+fs267AQ{3cU6CGP"];
+        //   password=prompt('Enter Password To View Page',' ');
+        //   if (list.indexOf(password) >= 0)
+        //   alert('Correct password, click OK to enter.');
+        //   else {
+        //       alert('Oops! Incorrect password. Please make sure there is no whitespace in password.');
+        //       window.location='index.html#project2';
           }
       </script>
     </head>
-    <body oncontextmenu="return false" class="noselect">
-    <!-- <body> -->
+    <!-- <body oncontextmenu="return false" class="noselect"> -->
+    <body>
         <header>
           <nav class="hamburger-menu">
             <a>
@@ -171,7 +171,7 @@
         <div class="container">
             <div class="row">
                 <article class="col-md-12">
-                    <img class="browser-screenshot" src="images/ai/new-overview-page.jpg" alt="new overview page" onmouseover="this.src='images/ai/new-overview-page-hover.png'" onmouseout="this.src='images/ai/new-overview-page.jpg'"/>
+                    <img class="browser-screenshot" id="overview-page" src="images/ai/new-overview-page.jpg" alt="new overview page" onmouseover="this.src='images/ai/new-overview-page-hover.png'" onmouseout="this.src='images/ai/new-overview-page.jpg'"/>
                    <div class="row">
                      <div class="col-md-12 ">
                        <h5 style="text-align: center">New Overview Page. Users can keep track of the training progress easily.</h5>
@@ -197,7 +197,7 @@
         <div class="container">
             <div class="row">
                 <article class="col-md-12">
-                    <img class="browser-screenshot" src="images/ai/training-guide-with-work-area.jpg" alt="training guide with work area"
+                    <img class="browser-screenshot" id="work-area" src="images/ai/training-guide-with-work-area.jpg" alt="training guide with work area"
                     onmouseover="this.src='images/ai/training-guide-with-work-area-hover.png'" onmouseout="this.src='images/ai/training-guide-with-work-area.jpg'"/>
                    <div class="row">
                      <div class="col-md-12 ">
