@@ -1047,11 +1047,11 @@ li {
     visibility:hidden;
 }
 /*ai*/
-#overview-page:before
+/*#overview-page:before
 		{content: url("../images/ai/new-overview-page-hover.png");}
 
  #work-area:before
- 		{content: url("../images/ai/training-guide-with-work-area-hover.png");}
+ 		{content: url("../images/ai/training-guide-with-work-area-hover.png");}*/
 
 /*ng*/
 #ng-search_recipe:before
@@ -1068,3 +1068,11 @@ li {
 
 #ng-cart:before
 		{content: url("../images/nutritious-grocer/ng-cart-hover.jpg");}
+
+.bg-preloader-div{
+    background: url("../images/ai/new-overview-page-hover.png") no-repeat;
+    background: url"../images/ai/training-guide-with-work-area-hover.png") no-repeat;
+    width:0;
+    height:0;
+    display:none;
+}
