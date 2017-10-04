@@ -117,7 +117,7 @@ a:hover, a:focus {
   position: fixed;
   top: 50%;
   left: 0;
-  z-index: 0;
+  z-index: 1;
   transform: translateY(-50%);
 }
 .progressbar.fixed .shim {

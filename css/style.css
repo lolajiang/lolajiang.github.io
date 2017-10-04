@@ -46,7 +46,7 @@ footer {
 .contact {
   height: 160px;
   top: 93vh;
-  right: 32px;
+  right: 2em;
   position: fixed;
   font-size: 14px;
   color: black;
@@ -122,7 +122,7 @@ blockquote {
 .content1 {
 	 font-size: 19px;
 	 line-height: 50px;
-	 margin: 0px 0px 0.5em 0px;
+	 margin: 0;
 	 font-family: "Quattrocento Sans";
 	 font-weight: 700;
 	 font-style: normal;
@@ -140,7 +140,7 @@ h1 {
 h2 {
 	 font-size: 42px;
 	 line-height: 50px;
-	 margin: 0px 0px 0.5em 0px;
+	 margin: 0 0 1em 0;
 	 font-family: "Quattrocento Sans";
 	 font-weight: 400;
 	 font-style: normal;
@@ -149,7 +149,7 @@ h2 {
 h3 {
 	 font-size: 28px;
 	 line-height: 50px;
-	 margin: 0px;
+	 margin: 1em 0 0 0;
 	 font-family: "Quattrocento Sans";
 	 font-weight: 400;
 	 font-style: normal;
@@ -485,8 +485,8 @@ ul.menu-nested {
 }
 
 nav.menu-nav-hz {
-   top: 8px;
-   right: 16px;
+    top: 1em;
+    right: 1em;
    float: right;
    position: fixed;
 	 margin: 0 auto;
@@ -497,12 +497,17 @@ ul.menu-hz {
 	 margin: 0 0 1em 0;
 	 list-style: none;
 	 text-align: center;
+     padding: 1em;
 }
 
 li.menu-hz-li {
 	 margin: 0 0.5em 0 0.5em;
 	 font-size: 16px;
 	 display: inline-block;
+}
+
+li.menu-hz-li:last-child {
+margin-right: 0;
 }
 
 span.dropcap {
@@ -618,7 +623,7 @@ li {
 	 font-family: "Merriweather";
 	 font-weight: 300;
 	 font-style: normal;
-	 margin: 10px 0px;
+	 margin: 1em 0px;
 	 font-size: 18px;
 	 line-height: 36px;
 }
@@ -777,8 +782,8 @@ article.container{
 
 /* navigation bar */
 nav.menu-nav-hz {
-   top: 21px;
-   right: 32px;
+   top: 1em;
+   right: 1em;
    position: fixed;
 	 margin: 0 auto;
    z-index: 10;
@@ -976,8 +981,8 @@ li {
 }
 
 .logo {
-    top: 16px;
-    left: 16px;
+    top: 2em;
+    left: 2em;
     position: fixed;
     z-index: 10;
 }
@@ -1053,4 +1058,35 @@ li {
 
 #preloader-ng {
     background: url("../images/nutritious-grocer/ng-search_recipe-hover.jpg"), url("../images/nutritious-grocer/ng-individual_recipe-hover.jpg"), url("../images/nutritious-grocer/ng-pantry-hover.jpg"), url("../images/nutritious-grocer/ng-pantry-item-hover.jpg"), url("../images/nutritious-grocer/ng-cart-hover.jpg");
+}
+
+/*abstract spacing*/
+.abstract {
+    margin-top: 0;
+}
+
+.abstract>h2 {
+    margin-bottom: 0.5em;
+}
+
+.abstract>p {
+    margin: 0 0 1em;
+}
+
+.abstract>ul {
+    margin: 0 20px;
+    padding: 0 20px;
+}
+
+.abstract>content1 {
+    margin: 2em 0 0 0;
+}
+
+/*ng-image-refine*/
+.image-margin-refine-bottom {
+    margin-bottom:0;
+}
+
+.image-margin-refine-top {
+    margin-top:0;
 }
