@@ -19,21 +19,17 @@ background-size: cover;
 
 section:nth-child(3) {
 position: relative;
-/* --grape */
-background: black url("https://images.unsplash.com/photo-1473229903343-d7903343f6c0?dpr=2&auto=format&fit=crop&w=767&h=511&q=80&cs=tinysrgb&crop=") no-repeat center fixed;
+background: black url("https://images.unsplash.com/photo-1477244075012-5cc28286e465?dpr=2&auto=format&fit=crop&w=767&h=1151&q=80&cs=tinysrgb&crop=") no-repeat center fixed;
 background-size: cover;
 }
 
 section:nth-child(4) {
 position: relative;
-/* --ai */
-/*background: black url("../images/ai/ai-dashboard-mockup.jpg") no-repeat center fixed;
-background-size: cover;
-}*/
-
-background: black url("https://images.unsplash.com/photo-1477244075012-5cc28286e465?dpr=2&auto=format&fit=crop&w=767&h=1151&q=80&cs=tinysrgb&crop=") no-repeat center fixed;
+/* --grape */
+background: black url("https://images.unsplash.com/photo-1473229903343-d7903343f6c0?dpr=2&auto=format&fit=crop&w=767&h=511&q=80&cs=tinysrgb&crop=") no-repeat center fixed;
 background-size: cover;
 }
+
 /* navigation bar */
 nav.menu-nav-hz {
 top: 1em;
