@@ -227,6 +227,7 @@ blockquote.pull-quote {
 blockquote.pull-quote-noline {
 	 margin: 0em 1em 1em 0em;
 	 padding: 0em 0em 0em 0.7em;
+     border-left-style: none;
 }
 
 p.quote {
@@ -1094,4 +1095,13 @@ li {
 
 .image-margin-refine-top {
     margin-top:0;
+}
+
+/*carousel*/
+.carousel-control.right {
+    background-image: none;
+}
+
+.carousel-control.left {
+    background-image: none;
 }
