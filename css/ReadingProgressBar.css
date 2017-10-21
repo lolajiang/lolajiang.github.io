@@ -108,7 +108,7 @@ a:hover, a:focus {
   background-color: #c1c1c1;
 }
 .progressbar .holder .labels i.reading::after {
-  color: #292b2c;
+  color: #000000;
 }
 .progressbar .holder .labels i.reading:hover::after, .progressbar .holder .labels i.reading:focus::after {
   top: 0;
