@@ -33,8 +33,9 @@ background-color: rgba(245, 245, 245, 0.35);
 border: 1px solid #000;
 }
 
-.btn-black:hover {
+.btn-black:hover, .btn-primary:focus {
 border: 1px solid #000;
+color: #000;
 }
 
 /* footer */
@@ -171,8 +172,8 @@ h5 {
 	 font-family: "Merriweather";
 	 font-weight: 400;
 	 font-size: 14px;
-     margin-top: 10px;
-     margin-bottom: 10px;
+     margin-top: 1em;
+     margin-bottom: 2em;
      line-height: 2em;
 }
 
@@ -245,8 +246,8 @@ p.HMW {
 }
 
 .icon {
-    max-height: 40px;
-    max-width: 40px;
+    max-height: 24px;
+    max-width: 24px;
     margin-bottom: 2rem;
     margin-top: 4rem;
 }
@@ -315,6 +316,18 @@ img.browser-screenshot {
     z-index: 2;
     position: relative;
     margin: 0 0 2em;
+}
+
+img.mobile-screenshot {
+    box-shadow: 0 5px 20px 1px rgba(0,0,0,0.1), 0 0 0 1px rgba(0,0,0,0.12), inset 0 1px 0 rgba(255,255,255,0.8);
+    z-index: 2;
+    position: relative;
+    width: 375px;
+}
+
+img.center {
+    display: block;
+    margin: 0 auto 2em;
 }
 
 div.testimonial {
@@ -660,6 +673,11 @@ li {
 
 #readnext-ng{
    background: url("https://images.unsplash.com/photo-1473229903343-d7903343f6c0?dpr=2&auto=format&fit=crop&w=767&h=511&q=80&cs=tinysrgb&crop=") no-repeat center fixed;
+}
+
+#readnext-tb{
+   background: linear-gradient( rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4) ), black url("https://images.unsplash.com/photo-1494707924465-e1426acb48cb?auto=format&fit=crop&w=2100&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D") no-repeat center fixed;
+   color: #000;
 }
 
 #readnext-sunban{

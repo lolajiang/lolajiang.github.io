@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <title>Improving Teambition’s App Retention</title>
+      <script src="https://use.fontawesome.com/04ee9d7103.js"></script>
+      <link rel="stylesheet prefetch" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+      <link rel="stylesheet" type="text/css" href="css/style.css" />
+      <link rel="stylesheet" type="text/css" href="css/ReadingProgressBar.css" />
+      <link rel="icon" type="image/png" sizes="16x16" href="images/logo_bw.png">
+      <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-89152223-1', 'auto');
+        ga('send', 'pageview');
+        <!-- Hotjar Tracking Code for www.lolajiang.com -->
+
+              (function(h,o,t,j,a,r){
+                  h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+                  h._hjSettings={hjid:574455,hjsv:5};
+                  a=o.getElementsByTagName('head')[0];
+                  r=o.createElement('script');r.async=1;
+                  r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+                  a.appendChild(r);
+              })(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
+      </script>
+      <script language="javascript">
+          var password;
+          list = ["988636"];
+          password=prompt('Enter Password To View Page','');
+          if (list.indexOf(password) >= 0)
+          alert('Correct password, click OK to enter.');
+          else {
+              alert('Oops! Incorrect password. Please contact lolajiang.ux@gmail.com for the latest password.');
+              window.location='index.html#project3';
+          }
+      </script>
+    </head>
+    <body oncontextmenu="return false" class="noselect">
+    <!-- <body> -->
+        <header>
+          <nav class="hamburger-menu">
+            <a>
+              <span class="hamburger-line"></span>
+              <span class="hamburger-line"></span>
+              <span class="hamburger-line"></span>
+            </a>
+          </nav>
+          <nav class="logo"><a href="index.html"><img src="images/logo_bw.png" alt="logo"></a></nav>
+          <nav class="menu-nav-hz">
+            <ul class="menu-hz">
+                <li class="menu-hz-li current" ><a class="menu" href="index.html#project1">Portfolio</a></li>
+                <li class="menu-hz-li"><a class="menu" target="_blank" href="https://drive.google.com/file/d/0Bx7sU9ts8uXKOHAwazFNUDNZOFE/view">Résumé</a></li>
+                <li class="menu-hz-li"><a class="menu" href="playground.html">Illustration</a></li>
+                <li class="menu-hz-li"><a class="menu" href="about.html">About</a></li>
+            </ul>
+          </nav>
+        </header>
+
+        <div class="container">
+            <div class="row">
+              <article class="col-md-8">
+                <h1>Improving Teambition’s App Retention</h1>
+                <p class="intro">In the 4 months since I did the internship at Teambition I’ve shipped several releases full of features, improvements and fixes. After all that you might be surprised that the app has gotten clearer call-to-actions, not the other way around.</p>
+            </article>
+            </div>
+        </div>
+
+        <div class="bg-preloader-div" id="preloader-ai"></div>
+
+        <div class="container">
+            <div class="row">
+              <article class="col-md-8">
+                <h2>Overview</h2>
+                <p><a class="link" target="_blank" href="https://www.teambition.com">Teambition</a> is a Chinese project management platform that makes it easier for teams to track their work with efficiency. Some similar products are Trello, Basecamp and Asana.</p>
+                <p>Starting late last summer, I received an ambitious project to improve the mobile app retention. As you might imagine, breaking down this daunting goal can pose some unique challenges.</p>
+                <p>The latest new design  will launch in late November.</p>
+              </article>
+              </div>
+            </div>
+
+        <div class="container">
+            <div class="row">
+              <article class="col-md-8">
+                <h2>Challenges</h2>
+                <p>I came across three main challenges:</p>
+                <h3>1. Fuzzy Problem Space</h3>
+                <p>Before this project, I had no idea how to improve mobile app retention. So I read a bunch of growth articles. Specifically, I drew inspiration from Andrew Chen and Sarah Tavel.</p>
+                <ul>
+                    <li>I learned from <a class="link" target="_blank" href="http://andrewchen.co/new-data-shows-why-losing-80-of-your-mobile-users-is-normal-and-that-the-best-apps-do-much-better/">Andrew Chen</a> that to improve mobile app retention, I’d better focus on the first-time user experience.</li>
+                    <li>Sarah Tavel’s <a class="link" target="_blank" href="https://medium.com/@sarahtavel/the-hierarchy-of-engagement-5803bf4e6cfa">The Hierarchy of Engagement</a> also blew me away. With the help of data scientists, I used her growth framework to chunk the complicated project down with four core actions and did tons of iterations to make each piece really simple to use.</li>
+                </ul>
+                <h3>2. How to Convince CEO</h3>
+                <p>Teambition is a nimble startup, so I had a great opportunity to continuously persuade CEO why it’s a problem and how to solve it. As a design intern, it was not an easy task, so I took a two-step approach:</p>
+                <ul>
+                    <li>First, I did a competitive analysis and pointed out several horrendous pitfalls during new users’ onboarding process. He agreed, so I made sure we were on the same page.</li>
+                    <li>Second, based on his feedback, I brainstormed several ideas and invited him to pick some that piqued his interest. It worked. It not only made me sound more reliable but more importantly kept the project rolling with clear directions.</li>
+                </ul>
+                <h3>3. Quick and dirty Research Methods</h3>
+                <p>Traditional user research methods such as interviews and user testings are not valued enough here. I guess it’s because the designer-centered culture encourages more of heuristic evaluations and internal dogfoodings. I used some quick and dirty research methods as workarounds. Besides compelling competitive analysis, I found two other methods extremely helpful to gather insights.</p>
+                <ul>
+                    <li>The first one is data analysis.</li>
+                    <li>The second one is customer complaints.</li>
+                </ul>
+                <p>Scroll down to learn more about how I integrated research into design process.</p>
+                </article>
+              </div>
+            </div>
+
+        <!-- two coloumns -->
+          <div class="container">
+             <div class="row">
+                 <article class="col-md-8">
+                <h2>What I’ve shipped</h2>
+                <p>With the first-time user experience in mind, my goal is to make new users discover our product value as soon as possible (<a class="link" target="_blank" href="http://andrewchen.co/new-data-shows-why-losing-80-of-your-mobile-users-is-normal-and-that-the-best-apps-do-much-better/">Andrew Chen</a>).</p>
+                <h3>1. New Onboarding: Create projects at your fingertips</h3>
+                <p>One area I wanted to improve was onboarding. I wanted new users to create projects and take advantage of benefits to track the progress. But even creating projects is burdensome for new users.</p>
+                <p>So in the new design, I encouraged users to pick some templates out of six most popular project templates. I also added a transition from creating a project to creating a task so users don’t need to wonder what the next step should be.</p>
+                <img class="mobile-screenshot center" src="images/tb/onboarding.gif" alt="new onboarding">
+                <h3>2. Creating Tasks: Delightful than ever</h3>
+                <p>Task is the most important piece to our product. The existing design was cluttered and users felt like they had to enter a lot of stuff.</p>
+                <p>In the new design, I highlighted one essential piece, title, with more white space in addition to de-emphasizing other less important text fields.</p>
+                <div class="row">
+                    <div class="col-md-6 col-sm-12">
+                        <h5 style="text-align: center">Before</h5>
+                        <img class="mobile-screenshot center" src="images/tb/creating-task-before.png" alt="creating task before">
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                        <h5 style="text-align: center">After</h5>
+                        <img class="mobile-screenshot center" src="images/tb/creating-task-after.png" alt="creating task after">
+                    </div>
+                </div>
+                <h3>3. Task Page: Effective call-to-actions</h3>
+                <p>I’d like to talk more about Task Page in detail. Not only because this is the one I put the most effort into, but also because I learned how to design under constrainsts.</p>
+                <div class="row">
+                    <div class="col-md-6 col-sm-12">
+                        <h5 style="text-align: center">Before</h5>
+                        <img class="mobile-screenshot center" src="images/tb/task-page-before.png" alt="task page before">
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                        <h5 style="text-align: center">After</h5>
+                        <img class="center mobile-screenshot" src="images/tb/task-page-after.png" alt="task page after">
+                    </div>
+                </div>
+                </article>
+          </div>
+        </div>
+
+
+
+        <div class="container">
+            <div class="row">
+              <article class="col-md-8">
+                <h2>Product Strategy</h2>
+                <h3>From Retention to Core Actions</h3>
+                <p>For a project management platform, task is everything.</p>
+                <p>I unpacked the concept of retention based on <a class="link" target="_blank" href="https://medium.com/@sarahtavel/the-hierarchy-of-engagement-5803bf4e6cfa">Sarah Tavel’s engagement framework</a> and narrowed down to four core actions I would encourage new users to do:</p>
+                <div class="row">
+                    <div class="col-md-6" style="text-align: center">
+                        <img class="icon" src="images/tb/icon-share.png" alt="Sharing a task">
+                        <div class="content1">Sharing a task</div>
+                    </div>
+                    <div class="col-md-6" style="text-align: center">
+                        <img class="icon" src="images/tb/icon-move.png" alt="Changing task stage">
+                        <div class="content1">Changing task stage</div>
+                    </div>
+                    <div class="col-md-6" style="text-align: center">
+                        <img class="icon" src="images/tb/icon-invite.png" alt="Inviting colleague">
+                        <div class="content1">Inviting colleagues</div>
+                    </div>
+                    <div class="col-md-6" style="text-align: center">
+                        <img class="icon" src="images/tb/icon-comment.png" alt="Commenting on a task">
+                        <div class="content1">Commenting on a task</div>
+                    </div>
+                </div>
+                <p>I partnered with our data scientist and used data to justify those four core actions. Users who did those four core actions have significantly higher retention rate than users who didn’t.</p>
+                </article>
+            </div>
+        </div>
+
+
+        <div class="container">
+            <div class="row">
+              <article class="col-md-8">
+                <h2>Design Decisions</h2>
+                <h3>1. Sharing a Task: Untraditional research helps</h3>
+                <div class="row">
+                    <div class="col-md-6 col-sm-12">
+                        <h5 style="text-align: center">Before</h5>
+                        <img class="mobile-screenshot center" src="images/tb/sharing-before.gif" alt="sharing before">
+                    </div>
+                    <div class="col-md-6 col-sm-12" style="padding-top: 2em;">
+                        <p>During heuristic evaluation, it was confusing even for me to figure out what “Read Only” mode was and what differences were between several modes of sharing.</p>
+                        <p>Data also validated that. Only 16.7% people shared successfully after they hit the sharing button on mobile. Something must be wrong with the sharing.</p>
+                    </div>
+                </div>
+                <p>I did several rounds of iterations. The first iteration mainly focused on the wording. I also changed the order of sharing methods based on relative usage frequency.</p>
+                <p>Obviously, that was far from enough. Not until I discussed  with customer success manager for customer complaints did I discover the tradeoff between privacy v.s. convenience.</p>
+                <ul>
+                    <li>Privacy: Users are hesitate to toggle the “Read Only” button on (i.e. visitors don't need to log in to see the content) because they worry about information leakage.</li>
+                    <li>Convenience: Users need to share tasks to colleagues on Wechat. <br> (One interesting side note, Chinese people are so accustomed to Wechat that they will use it for everything, including work. They even bother to download our native app.)</li>
+                </ul>
+                <div class="row">
+                    <div class="col-md-6 col-sm-12">
+                        <h5 style="text-align: center">After</h5>
+                        <img class="mobile-screenshot center" src="images/tb/sharing-after.png" alt="sharing after">
+                    </div>
+                    <div class="col-md-6 col-sm-12" style="padding-top: 2em;">
+                        <p>This insight opened a door of new possibilities. The new design allowed users to share without toggling the “Read Only” button on, i.e. they can share to their colleagues internally or externally under privacy mode.</p>
+                        <p>It also mirrored the existing capability of web users. If users can copy a URL from a browser and send the link to their colleagues through Wechat, why can’t they do the same thing on mobile?</p>
+                    </div>
+                </div>
+
+                <h3>2. Changing Task Stage: Use data to justify intuition</h3>
+                <p>Task is the core piece of our product. Project management without changing task stage, say, from “To Do” to “Work in Progress”, is impossible.</p>
+                <p>Sounds obvious, but I couldn’t get the engineers to buy in. So I approached our data scientist to ask for more evidence. It worked. Data shows that the average number of events per action is as high as 20 times, much higher than other events such as copying or archiving.</p>
+                <img src="images/tb/data-analysis-moving.png" alt="data analysis moving">
+                <h5 style="text-align: center">Average number of events per action (Changing Task Stage) is as high is 20 times.</h5>
+                <p>As you can see, one of the most fascinating thing to work in a in-house design team is the ability to work closely with the engineers and convince  them of your design decisions.</p>
+                <div class="row">
+                    <div class="col-md-6 col-sm-12">
+                        <h5 style="text-align: center">After</h5>
+                        <img class="mobile-screenshot center" src="images/tb/moving-after.gif" alt="changing task stage after">
+                    </div>
+                    <div class="col-md-6 col-sm-12" style="padding-top: 2em;">
+                        <p>I opted for more obvious call-to-action by moving the button to the upper right corner.</p>
+                        <p>I also reduced the stepes of changing task stages by landing users on the task page page without touching project or task group. This, of course, can save them a lot of headache.</p>
+                    </div>
+                </div>
+
+
+                <h3>3. Potential Reading Area: Killed due to engineering constraint</h3>
+                <p>Engineering constraints are everywhere. Some of them could only be discovered with the help of engineers.</p>
+                <p>One area that I wanted to improve was how people read the task on the page. This insight was based on the observation that people would read the title combined with the notes. The first iteration was to separate the elements with two groups: reading area for immersive reading; action area for quick look.</p>
+                <div class="row">
+                    <div class="col-md-4 col-sm-12">
+                        <h5 style="text-align: center">Before</h5>
+                        <img class="mobile-screenshot center" src="images/tb/reading-area-before.png" alt="reading area before">
+                    </div>
+                    <div class="col-md-4 col-sm-12">
+                        <h5 style="text-align: center">Iteration</h5>
+                        <img class="mobile-screenshot center" src="images/tb/reading-area-iteration.png" alt="reading area iteration">
+                    </div>
+                    <div class="col-md-4 col-sm-12">
+                        <h5 style="text-align: center">After</h5>
+                        <img class="center mobile-screenshot" src="images/tb/reading-area-after.png" alt="reading area after">
+                    </div>
+                </div>
+                <p>However, this idea was killed due to engineering constraint. In short, since we already empower users to change the order of fields based on their own needs, we can’t hard code to change the order (such as put notes right after title) any more.</p>
+                <p>Good news was we still managed to make the task easier to read by improving visual hierarchy and space contrast.</p>
+
+                <h3>4. Two Other Core Actions: Inspirations from design trends</h3>
+                <p>Both inviting colleagues and commenting on a task are low hanging fruits. The goal is to make it more obvious to invite colleagues and and make it easier to engage in conversations. I drew inspiration from <a class="link" href="https://itunes.apple.com/us/app/dropbox-paper/id1126623662?mt=8">Dropbox’s header with circle images</a> and <a class="link" href="https://medium.com/facebook-design/evolving-the-facebook-news-feed-to-serve-you-better-f844a5cb903d">Facebook’s new messaging design paradigms</a> separately.</p>
+                <p>The header with circle images is a more effective call-to-action to encourage people to invite colleagues than a grey cell hidden below the main task</p>
+                <div class="row">
+                    <div class="col-md-6 col-sm-12">
+                        <h5 style="text-align: center">Iterations</h5>
+                        <img class="mobile-screenshot center" src="images/tb/header-iteration.gif" alt="iterations of header">
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                        <h5 style="text-align: center">After</h5>
+                        <img class="center mobile-screenshot" src="images/tb/header-final.png" alt="final version of header">
+                    </div>
+                </div>
+                <p>The messaging design paradigms empower people to converse better than message board styles.</p>
+                <div class="row">
+                    <div class="col-md-6 col-sm-12">
+                        <h5 style="text-align: center">Before</h5>
+                        <img class="mobile-screenshot center" src="images/tb/comments-before.png" alt="comments before">
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                        <h5 style="text-align: center">After</h5>
+                        <img class="center mobile-screenshot" src="images/tb/comments-after.png" alt="comments after">
+                    </div>
+                </div>
+
+                <h3>5. Other Changes: Every detail matters</h3>
+                <p>Aside from those core actions, I also did a variety of design treatments to find opportunities on improving user experience on task page:</p>
+                <div class="row" style="padding: 2em 0;">
+                    <div class="col-md-6 col-sm-12">
+                        <img class="mobile-screenshot center" src="images/tb/subtask-after.gif" alt="subtask after">
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                        <p>Helped people break up the work by expanding subtasks in a checklist format.</p>
+                    </div>
+                </div>
+                <div class="row" style="padding: 2em 0;">
+                    <div class="col-md-6 col-sm-12">
+                        <img class="mobile-screenshot center" src="images/tb/calendar-after.png" alt="calendar after">
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                        <p>Made the date easier to select by changing from default date picker to a calendar view.</p>
+                    </div>
+                </div>
+                <div class="row" style="padding: 2em 0;">
+                    <div class="col-md-6 col-sm-12">
+                        <img class="mobile-screenshot center" src="images/tb/scrolling-after.gif" alt="scrolling after">
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                        <p>Made the new activities easier to read by scrolling automatically to the bottom of the task page from their inbox.</p>
+                    </div>
+                </div>
+                <div class="row" style="padding: 2em 0;">
+                    <div class="col-md-6 col-sm-12">
+                        <img class="mobile-screenshot center" src="images/tb/gesture-after.gif" alt="gesture after">
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                        <p>Improved navigational gestures by enabling people to swipe back out into Task Panel.</p>
+                    </div>
+                </div>
+                <div class="row" style="padding: 2em 0;">
+                    <div class="col-md-6 col-sm-12">
+                        <img class="mobile-screenshot center" src="images/tb/photo-uploading-after.gif" alt="photo uploading after">
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                        <p>Provided a more convenient photo uploading experience by placing recent photos right at the top of menu.</p>
+                    </div>
+                </div>
+            </article>
+        </div>
+        </div>
+
+       <div class="container">
+          <div class="row">
+            <article class="col-md-8">
+              <h2>What’s Next</h2>
+              <p>I will validate all the design decisions based on the performance of key metrics such as active users, number of events and retention rates.</p>
+              <p>The biggest lesson I learned in this internship is the tradeoff between quality and cost. Obviously nothing is ever “done” because there’s always another idea. However, designers have to learn to balance between time, cost and quality constraints.</p>
+              <p>Designing Teambition mobile app has been an incredible adventure so far, and I’m really grateful that I got to work on so many things, and that Teambition offered me a project with a big impact that I would have ownership of.</p>
+          </article>
+          </div>
+        </div>
+
+        <div class="readnext" id="readnext-ai">
+            <h4>Read Next</h4>
+            <h3>Redesigning AI training for everyone</h3>
+            <a class="btn btn-primary" href="ai-training.html">Enter Password</a>
+        </div>
+
+        <footer class="contact">
+          <a class="scrollchange" href="mailto:lolajiang.ux@gmail.com" target="_blank"><i class="fa fa-envelope-o"></i></a>
+          <a class="scrollchange"  href="https://www.linkedin.com/in/lolajiang" target="_blank"><i class="fa fa-linkedin"></i></a>
+        </footer>
+
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.7.4/jquery.fullPage.min.js"></script>
+        <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+
+
+        <script src="javascript/hamburger-menu.js"></script>
+        <script src="javascript/ReadingProgressBar.js"></script>
+    </body>
+</html>
