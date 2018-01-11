@@ -17,12 +17,12 @@ background: url("https://images.unsplash.com/photo-1432763597291-6255a042eb30?dp
 background-size: cover;
 }
 
-section:nth-child(3) {
+/*section:nth-child(3) {
 position: relative;
 /* --teambition */
 background: linear-gradient( rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5) ), black url("https://images.unsplash.com/photo-1494707924465-e1426acb48cb?auto=format&fit=crop&w=2100&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D") no-repeat center fixed;
 background-size: cover;
-}
+}*/
 
 section:nth-child(4) {
 position: relative;
@@ -31,12 +31,6 @@ background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), black url
 background-size: cover;
 }
 
-section:nth-child(5) {
-position: relative;
-/* --grape */
-background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), black url("https://images.unsplash.com/photo-1473229903343-d7903343f6c0?dpr=2&auto=format&fit=crop&w=767&h=511&q=80&cs=tinysrgb&crop=") no-repeat center fixed;
-background-size: cover;
-}
 
 /* navigation bar */
 nav.menu-nav-hz {
@@ -174,7 +168,7 @@ border-left: 1px solid #000;
 max-height: 170px;
 max-width: 500px;
 /*   max-width: 250px; */
-transform: translate(0, 10vh);
+transform: translate(0, 30vh);
 font-family: 'Quattrocento';
 font-size: 14px;
 color: #000;
@@ -396,4 +390,44 @@ right: 10px;
   100% {
     height: 0%;
   }
+}
+
+img {
+    position: relative;
+    z-index: 1;
+}
+img.wide {
+	 max-width: 100%;
+	 width: 453px;
+}
+
+img.standard {
+	 max-width: 100%;
+	 width: 289px;
+}
+
+img.square {
+	 max-width: 100%;
+	 width: 192px;
+}
+
+img.browser-screenshot {
+    box-shadow: 0 5px 20px 1px rgba(0,0,0,0.1), 0 0 0 1px rgba(0,0,0,0.12), inset 0 1px 0 rgba(255,255,255,0.8);
+    border-radius: 10px;
+    z-index: 2;
+    position: relative;
+    margin: 0 0 2em;
+}
+
+img.mobile-screenshot {
+    box-shadow: 0 5px 20px 1px rgba(0,0,0,0.1), 0 0 0 1px rgba(0,0,0,0.12), inset 0 1px 0 rgba(255,255,255,0.8);
+    z-index: 2;
+    position: relative;
+    width: 375px;
+}
+
+img.center {
+    display: block;
+    margin: 0 auto;
+    margin-right:0;
 }
