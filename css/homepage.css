@@ -428,6 +428,6 @@ img.mobile-screenshot {
 
 img.center {
     display: block;
-    margin: 0 auto;
+    margin: 2em auto;
     margin-right:0;
 }
