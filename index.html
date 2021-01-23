@@ -28,6 +28,33 @@
           })(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
 
   </script>
+
+  <!-- Global site tag (gtag.js) - Google Ads: 800419111 -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-800419111"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'AW-800419111');
+  </script>
+
+  <!-- Event snippet for Website traffic conversion page
+  In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+  <script>
+  function gtag_report_conversion(url) {
+    var callback = function () {
+      if (typeof(url) != 'undefined') {
+        window.location = url;
+      }
+    };
+    gtag('event', 'conversion', {
+        'send_to': 'AW-800419111/k9wCCIHvivABEKfa1f0C',
+        'event_callback': callback
+    });
+    return false;
+  }
+  </script>
 </head>
 
 <body translate="no" oncontextmenu="return false" class="noselect">
@@ -68,7 +95,10 @@
             <h1>Get feedback for your UX portfolio</h1>
             <p>What differentiates a good UX portfolio from a great portfolio? It's feedback. Empower you to build your UX portfolio and land your dream job.
             </p>
-            <a class="btn btn-black" href="https://square.site/book/5E63XZFYDNYMD/lola-s-ux-consulting">Book with Lola</a>
+            <a id="CTA" class="btn btn-black" href="https://square.site/book/5E63XZFYDNYMD/lola-s-ux-consulting">Book with Lola</a>
+            <script>
+              document.getElementById("CTA").onclick = function(){gtag_report_conversion()};
+            </script>
           </div>
           <div class="col-md-1"></div>
           <div class="col-md-4 col-sm-12">
