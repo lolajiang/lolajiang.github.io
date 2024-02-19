@@ -39,8 +39,18 @@
 
         gtag('config', 'AW-800419111');
       </script>
+      <script language="javascript">
+        var password;
+        list = ["fantastic"];
+        password=prompt('Enter password to view portfolio','');
+        if (list.indexOf(password) < 0){
+            alert('Oops! Incorrect password. Please make sure there is no whitespace in password.');
+            window.location='index.html#project1';
+        }
+      </script>
+      
     </head>
-    <body oncontextmenu="return false" class="noselect">
+    <!-- <body oncontextmenu="return false" class="noselect"> -->
     <body>
         <header>
           <nav class="hamburger-menu">
