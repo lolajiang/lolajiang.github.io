@@ -318,6 +318,14 @@ img.browser-screenshot {
     margin: 0 0 2em;
 }
 
+video.browser-screenshot {
+    box-shadow: 0 5px 20px 1px rgba(0,0,0,0.1), 0 0 0 1px rgba(0,0,0,0.12), inset 0 1px 0 rgba(255,255,255,0.8);
+    border-radius: 10px;
+    z-index: 2;
+    position: relative;
+    margin: 0 0 2em;
+}
+
 img.mobile-screenshot {
     box-shadow: 0 5px 20px 1px rgba(0,0,0,0.1), 0 0 0 1px rgba(0,0,0,0.12), inset 0 1px 0 rgba(255,255,255,0.8);
     z-index: 2;
