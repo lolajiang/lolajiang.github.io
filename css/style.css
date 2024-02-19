@@ -436,6 +436,13 @@ img.flip {
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
 }
+.browser-annotations li.annotation-right:before {
+    top: 25%;
+    right: -100px;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
 
 /*Annotation End*/
 
