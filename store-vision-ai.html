@@ -43,9 +43,10 @@
         var password;
         list = ["fantastic"];
         password=prompt('Enter Password To View Page','');
-        if (list.indexOf(password) >= 0)
-        alert('Correct password, click OK to enter.');
-        else {
+        // if (list.indexOf(password) >= 0)
+        // alert('Correct password, click OK to enter.');
+        // else {
+        if (list.indexOf(password) < 0){
             alert('Oops! Incorrect password. Please make sure there is no whitespace in password.');
             window.location='index.html#project1';
         }
