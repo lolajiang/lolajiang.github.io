@@ -443,12 +443,14 @@ img.flip {
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
 }
+
 .browser-annotations li.annotation-bottom:before {
     bottom: -75px;
     left: 50%;
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
 }
+
 
 /*Annotation End*/
 
