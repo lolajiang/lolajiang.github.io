@@ -30,12 +30,12 @@ body {
 
 .btn-black {
 background-color: rgba(245, 245, 245, 0.35);
-border: 1px solid #000;
+border: 1px solid #333;
 }
 
 .btn-black:hover, .btn-primary:focus {
-border: 1px solid #000;
-color: #000;
+border: 1px solid #333;
+color: #333;
 }
 
 /* footer */
@@ -682,8 +682,8 @@ li {
 
 .readnext {
   text-align: center;
-  background-color: #666;
-  color: #fff;
+  background-color: #fff;
+  color: #333;
   padding: 15% 0;
   margin-top: 60px;
   z-index: 1;
