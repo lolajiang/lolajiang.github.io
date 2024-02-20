@@ -31,6 +31,7 @@ body {
 .btn-black {
 background-color: rgba(245, 245, 245, 0.35);
 border: 1px solid #333;
+color: #333;
 }
 
 .btn-black:hover, .btn-primary:focus {
