@@ -831,12 +831,12 @@ nav.menu-nav-hz {
 
 .menu-logo > a:hover{
 text-decoration: none;
-color: #000000;
+color: #333;
 }
 
 .menu-hz-li > a:focus{
 text-decoration: none;
-color: #000000;
+color: #333;
 }
 
 ul.menu-hz {
@@ -866,29 +866,29 @@ li {
 a {
 	 font-weight: 400;
 	 font-style: normal;
-   color: #000000;
+   color: #333;
    text-decoration: none;
 }
 
 .link, .link:hover, .link:focus {
 	 font-weight: 400;
 	 font-style: normal;
-   color: #000000;
-   border-bottom: 1px solid #000;
+   color: #333;
+   border-bottom: 1px solid #333;
    text-decoration: none;
 }
 
 .current {
   text-decoration: none;
-  color: #000000;
-  border-bottom: 1px solid #000;
+  color: #333;
+  border-bottom: 1px solid #333;
   padding-bottom: 3px;
 }
 
 .menu-hz-li > a:hover{
   text-decoration: none;
-  color: #000000;
-  border-bottom: 1px solid #000;
+  color: #333;
+  border-bottom: 1px solid #333;
   padding-bottom: 3px;
 }
 

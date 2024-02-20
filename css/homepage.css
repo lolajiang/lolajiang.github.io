@@ -85,26 +85,26 @@ line-height: 36px;
 a {
 font-weight: 400;
 font-style: normal;
-color: #000000;
+color: #333;
 }
 
 .current {
 text-decoration: none;
-color: #000000;
-border-bottom: 1px solid #000;
+color: #333;
+border-bottom: 1px solid #333;
 padding-bottom: 3px;
 }
 
 .menu-hz-li > a:hover{
 text-decoration: none;
-color: #000000;
-border-bottom: 1px solid #000;
+color: #333;
+border-bottom: 1px solid #333;
 padding-bottom: 3px;
 }
 
 .menu-hz-li > a:focus{
 text-decoration: none;
-color: #000000;
+color: #333;
 }
 
 .btn-primary.focus, .btn-primary:focus {
@@ -125,12 +125,12 @@ color: #000000;
 
 .menu-logo > a:hover{
 text-decoration: none;
-color: #000000;
+color: #333;
 }
 
 .menu-logo > a:focus{
 text-decoration: none;
-color: #000000;
+color: #333;
 }
 
 .hamburger-menu {
@@ -166,14 +166,14 @@ line-height: 22px;
 }
 
 .project-black {
-border-left: 1px solid #000;
+border-left: 1px solid #333;
 max-height: 170px;
 max-width: 500px;
 /*   max-width: 250px; */
 transform: translate(0, 30vh);
 font-family: 'Quattrocento';
 font-size: 14px;
-color: #000;
+color: #333;
 line-height: 22px;
 }
 
@@ -252,12 +252,13 @@ border-radius: 0;
 
 .btn-black {
 background-color: rgba(245, 245, 245, 0);
-border: 1px solid #000;
+border: 1px solid #333;
+color: #333;
 }
 
 .btn-black:hover {
-border: 1px solid #000;
-color: #000;
+border: 1px solid #333;
+color: #333;
 }
 
 /* footer */
